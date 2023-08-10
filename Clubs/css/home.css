@@ -17,3 +17,21 @@ body, div {
   max-height: 100vh; 
 }
 /* Banner End */
+
+/* Menu Start */
+
+.rectangle{
+  position: relative;
+}
+
+.rectangle{
+  top: 2px;
+  width: 1280px; 
+  height: 40px; 
+  background: black; 
+  border-radius: 11px;
+}
+/* Should Add Buttons */
+/* If u want to edit gap between menu and banner cahnge top */
+
+/* Menu End */
