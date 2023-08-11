@@ -17,20 +17,55 @@ body, div {
   max-height: 100vh; 
 }
 /* Banner End */
-/* Menu Start */
 
-.rectangle{
-  position: relative;
+
+/* Image Start */
+.fun{
+    position: fixed;
+}
+.fun{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+/*   left: 705px !important; */
+  right: 140px;
+  top: 150px;
+
+}
+/* Image End */
+
+
+/* Content Start */
+
+.content {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.rectangle{
-  top: 2px;
-  width: 1280px; 
-  height: 40px; 
-  background: black; 
-  border-radius: 11px;
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-/* Should Add Buttons */
-/* If u want to edit gap between menu and banner cahnge top */
+.label .text-wrapper {
+  position: fixed;
+  color: #000000;
+  font-family: "Jua";
+  font-size: 150px;
+  text-shadow: 6px 2px 4px #ff7f0a;
+  margin-right: 20px;
+  top: 200px;
+  left: 150px;
+}
 
-/* Menu End */
+
+/* Content End */
