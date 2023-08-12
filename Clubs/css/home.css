@@ -23,7 +23,9 @@ body, div {
 .fun{
     position: fixed;
 }
+
 .fun{
+  position: fixed;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -32,8 +34,8 @@ body, div {
   height: 35vw;
   right: 10vw; 
   top: 27vh;
-
 }
+
 /* Image End */
 
 
@@ -55,19 +57,22 @@ body, div {
   justify-content: center;
   flex-direction: column;
 }
+
+
 .label .text-wrapper {
   position: fixed;
   color: #000000;
   font-family: "Jua";
-  font-size: 12vw;
+  font-size: 12vw; 
   text-shadow: 6px 2px 4px #ff7f0a;
   margin-right: 20px;
-  top: 31vh;
-  left:13vw;
+  top: 31vh; 
+  left: 13vw; 
 }
+
+/* Content End */
+
 /* Back Button  Start*/
-
-
 
 .back{
   font-family: "Jua";
@@ -87,6 +92,5 @@ body, div {
 .back:hover {
   color:#ff7f0a;
 }
-/* Back Button End */
 
-/* Content End */
+/* Back Button End */
