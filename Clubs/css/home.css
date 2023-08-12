@@ -28,11 +28,10 @@ body, div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 450px;
-  height: 450px;
-/*   left: 705px !important; */
-  right: 140px;
-  top: 150px;
+  width: 35vw; 
+  height: 35vw;
+  right: 10vw; 
+  top: 27vh;
 
 }
 /* Image End */
@@ -60,11 +59,11 @@ body, div {
   position: fixed;
   color: #000000;
   font-family: "Jua";
-  font-size: 150px;
+  font-size: 12vw;
   text-shadow: 6px 2px 4px #ff7f0a;
   margin-right: 20px;
-  top: 200px;
-  left: 150px;
+  top: 31vh;
+  left:13vw;
 }
 
 /* Content End */
