@@ -65,5 +65,28 @@ body, div {
   top: 31vh;
   left:13vw;
 }
+/* Back Button  Start*/
+
+
+
+.back{
+  font-family: "Jua";
+  position: fixed;
+  left: -1vw;
+  top: 25vh;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 2.5vw;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+}
+
+.back:hover {
+  color:#ff7f0a;
+}
+/* Back Button End */
 
 /* Content End */
