@@ -1,0 +1,22 @@
+/* Banner Start */
+body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .banner {
+    position: relative; 
+  }
+  
+  
+  .banner img {
+    display: block; 
+    width: 100%;
+    height: auto; 
+    max-height: 100vh; 
+  }
+  /* Banner End */
+  
+  
+  
