@@ -74,7 +74,7 @@ body, div {
 
 /* Back Button  Start*/
 
-.fa-arrow-left{
+.fa-arrow-left-long{
   color:#ffffff;
   background-color: #000000;
   position: fixed;
@@ -92,7 +92,7 @@ body, div {
   height: 1.7vw;
   text-align: center;
 }
-.fa-arrow-left:hover{
+.fa-arrow-left-long:hover{
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
