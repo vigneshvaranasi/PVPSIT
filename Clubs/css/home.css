@@ -97,3 +97,27 @@ body, div {
 }
 
 /* Back Button End */
+
+/* Designed By Start */
+
+.design{
+  color:#ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: fixed;
+  right: 0.5vw;
+  top: 26.5vh;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  width: 12vw;
+  height: 2.6vw;
+  text-align: center;
+}
+.design:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+/* Designed By End */
