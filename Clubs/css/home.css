@@ -64,7 +64,7 @@ body, div {
   color: #000000;
   font-family: "Jua";
   font-size: 12vw; 
-  text-shadow: 6px 2px 4px #ff7f0a;
+  text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   margin-right: 20px;
   top: 31vh; 
   left: 13vw; 
@@ -74,23 +74,26 @@ body, div {
 
 /* Back Button  Start*/
 
-.back{
-  font-family: "Jua";
+.fa-arrow-left {
+  color:#ffffff;
+  background-color: #000000;
   position: fixed;
-  left: -1vw;
-  top: 25vh;
+  left: 0.5vw;
+  top: 26.5vh;
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #000000;
   border: none;
-  border-radius: 5px;
-  font-size: 2.5vw;
+  border-radius: 1vw;
+  font-size: 1.8vw;
   cursor: pointer;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
+  width: 2vw;
+  height: 1.7vw;
+  text-align: center;
 }
-
-.back:hover {
-  color:#ff7f0a;
+.fa-arrow-left:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
 /* Back Button End */
