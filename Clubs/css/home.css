@@ -32,7 +32,7 @@ body, div {
   justify-content: center;
   width: 36vw; 
   height: 36vw;
-  right: 10vw; 
+  right: 13vw; 
   top: 25vh;
 }
 
@@ -67,7 +67,7 @@ body, div {
   text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   margin-right: 20px;
   top: 31vh; 
-  left: 13vw; 
+  left: 21vw; 
 }
 
 /* Content End */
@@ -121,3 +121,20 @@ body, div {
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 /* Designed By End */
+
+/* Rappit picture Start */
+
+.rabbit{
+  position: fixed;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 12vw; 
+  height:17vw;
+  left: 2vw; 
+  top: 63vh;
+  
+}
+
+/* Rappit picture End */
