@@ -67,4 +67,101 @@ body, div {
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 /* Designed By End */
-  
+  /* Designed By End */
+  /* INNOVATION start */
+  .label .text-wrapper {
+    position: fixed;
+    color: #000000;
+    font-family: "Jua";
+    font-size: 8vw;
+    text-shadow: 6px 2px 4px #ff7f0a;
+    width:50.05vw;
+    height:43.52vh;
+    top: 21.54vh;
+    left:20.55vw;
+   margin-right:15vw;
+  }
+   /* innovation end */
+
+   .about{
+    color:#ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    position: fixed;
+    right: 0.5vw;
+    top: 50.5vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    width: 13vw;
+    height: 2.6vw;
+    text-align: center;
+  }
+  .about:hover{
+    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  .events{
+    color:#ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    position: fixed;
+    right: 0.5vw;
+    top: 58.5vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    width: 13vw;
+    height: 5.6vw;
+    text-align: center;
+  }
+  .events:hover{
+    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+ 
+  .archive{
+    color:#ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    position: fixed;
+    right: 0.5vw;
+    top: 72.5vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    width: 13vw;
+    height: 2.6vw;
+    text-align: center;
+  }
+  .archive:hover{
+    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  .other{
+    color:#ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    position: fixed;
+    right: 0.5vw;
+    top: 80.5vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    width: 13vw;
+    height: 2.6vw;
+    text-align: center;
+  }
+  .other:hover{
+    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  }
