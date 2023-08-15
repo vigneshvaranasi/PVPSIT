@@ -90,7 +90,7 @@ body, div {
   height: 1.6vw;
   text-align: center;
 }
-.fa-arrow-left-long a:hover{
+.fa-arrow-left-long:hover{
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
