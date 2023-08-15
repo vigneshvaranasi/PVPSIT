@@ -28,12 +28,12 @@ body, div {
   flex-direction: row;
   justify-content: center;
   width: 36vw; 
-  height: 36vw;
+  height:36vw;
   right: 13vw; 
-  top: 0.5vh;
+  top:0.5vh;
 }
 
-/* Children Image End */
+/* Childern Image End */
 
 
 /* Content Start */
@@ -132,7 +132,6 @@ body, div {
   height:17vw;
   left: 2vw; 
   top: 63vh;
-  
 }
 
 /* Rabbit picture End */
