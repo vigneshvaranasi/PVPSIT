@@ -72,13 +72,13 @@ body, div {
 
 /* Back Button  Start*/
 
-.fa-arrow-left-long{
+.fa-arrow-left-long {
   color:#ffffff;
   background-color: #000000;
   position: absolute;
   left: 0.5vw;
   top: 26.5vh;
-  padding:1.11vh 1.39vw;
+  padding: 1.11vh 1.39vw;
   background-color: #000000;
   border: none;
   border-radius: 1vw;
