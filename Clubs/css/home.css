@@ -156,7 +156,7 @@ body, div {
   background-color: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border:0.3vw solid #000;
+  border:0.2vw solid #000;
   border-radius: 5vh;
   text-align: center;
   height:30vw;
@@ -174,7 +174,7 @@ body, div {
 }
 
 .text-card .line{
-  border: 0.2vw black solid;
+  border: 0.1vw black solid;
 }
 .text-card a{
   color:#000;
