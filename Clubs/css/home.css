@@ -149,7 +149,7 @@ body, div {
 .cards {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 
 .text-card {
@@ -216,5 +216,3 @@ body, div {
 .explore:hover{
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
-
-/* Explore Button End */
