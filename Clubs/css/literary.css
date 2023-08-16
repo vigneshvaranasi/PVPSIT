@@ -1,0 +1,69 @@
+/* Banner Start */
+body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .banner {
+    position: relative; 
+  }
+  
+  
+  .banner img {
+    display: block; 
+    width: 100%;
+    height: auto; 
+    max-height: 100vh; 
+  }
+/* Banner End */
+ 
+/* Back Button  Start*/
+
+.fa-arrow-left-long{
+    color:#ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 26.5vh;
+    padding: 1.11vh 1.39vw;
+    background-color: #000000;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+  }
+  .fa-arrow-left-long:hover{
+    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  
+/* Back Button End */
+
+/* Designed By Start */
+
+.design{
+  color:#ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: absolute;
+  right: 0.5vw;
+  top: 26.5vh;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  width: 12vw;
+  height: 2.6vw;
+  text-align: center;
+}
+.design:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+/* Designed By End */
