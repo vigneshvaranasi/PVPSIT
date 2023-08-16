@@ -181,6 +181,18 @@ body, div {
   text-decoration: none;
 }
 
+/* Card Hover Zoom Start */
+.text-card {
+  overflow: hidden;
+  transition: all 0.3s ease-in-out; 
+}
+
+.text-card:hover {
+  transform: scale(1.05); 
+}
+
+/* Card Hover Zoom End */
+
 /* Cards Start*/
 
 /* Explore Button Start */
