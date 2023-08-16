@@ -1,3 +1,4 @@
+
 /* Banner Start */
 body, div {
   margin: 0;
@@ -64,7 +65,7 @@ body, div {
   font-size: 12vw; 
   text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   margin-right: 20px;
-  top: 2.5vh; 
+  top: -6vh; 
   left: 17vw; 
 }
 
@@ -142,7 +143,7 @@ body, div {
 .container {
   font-family: "Jua";
   position: relative;
-  top:75vh;
+  top:80vh;
 }
 
 .cards {
@@ -181,6 +182,7 @@ body, div {
 }
 
 /* Cards Start*/
+
 /* Explore Button Start */
 .explore{
   color:#ffffff;
