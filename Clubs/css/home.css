@@ -181,3 +181,26 @@ body, div {
 }
 
 /* Cards Start*/
+/* Explore Button Start */
+.explore{
+  color:#ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: absolute;
+  left: 24vw;
+  top: 86.5vh;
+  border: none;
+  border-radius: 2vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  width: 15vw;
+  height: 2.7vw;
+  text-align: center;
+}
+.explore:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Explore Button End */
