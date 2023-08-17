@@ -45,8 +45,7 @@ body, div {
 /* Back Button End */
 
 /* Designed By Start */
-
-design{
+.design{
   color:#ffffff;
   background-color: #000000;
   font-family: "Jua";
@@ -172,12 +171,6 @@ design{
   width: 43vw;
 }
 
-
-  
-  .text-card img{
-    height:25vw;
-    width: 25vw;
-  }
   .image{
     position: absolute;
     background-color: #ffffff;
@@ -189,4 +182,3 @@ design{
     left: 2vw; 
     top: 37vh;
   }
-  
