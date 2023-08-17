@@ -46,20 +46,20 @@ body, div {
 
 /* Designed By Start */
 
-.design{
+design{
   color:#ffffff;
   background-color: #000000;
   font-family: "Jua";
-  position: fixed;
-  right: 0.5vw;
+  position:  absolute;
+  right: 1.5vw;
   top: 26.5vh;
   border: none;
-  border-radius: 1vw;
+  border-radius: 0.6vw;
   font-size: 1.9vw;
   cursor: pointer;
   color: #ffffff;
   text-decoration: none;
-  width: 12vw;
+  width: 13vw;
   height: 2.6vw;
   text-align: center;
 }
@@ -67,18 +67,17 @@ body, div {
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 /* Designed By End */
-  /* Designed By End */
   /* INNOVATION start */
   .label .text-wrapper {
-    position: fixed;
+    position:  absolute;
     color: #000000;
     font-family: "Jua";
-    font-size: 8vw;
+    font-size: 7vw;
     text-shadow: 6px 2px 4px #ff7f0a;
     width:50.05vw;
     height:43.52vh;
     top: 21.54vh;
-    left:20.55vw;
+    left:25vw;
    margin-right:15vw;
   }
    /* innovation end */
@@ -87,11 +86,11 @@ body, div {
     color:#ffffff;
     background-color: #000000;
     font-family: "Jua";
-    position: fixed;
-    right: 0.5vw;
-    top: 50.5vh;
+    position:  absolute;
+    right: 1.5vw;
+    top: 46.5vh;
     border: none;
-    border-radius: 1vw;
+    border-radius: 0.6vw;
     font-size: 1.9vw;
     cursor: pointer;
     color: #ffffff;
@@ -107,17 +106,17 @@ body, div {
     color:#ffffff;
     background-color: #000000;
     font-family: "Jua";
-    position: fixed;
-    right: 0.5vw;
-    top: 58.5vh;
+    position:  absolute;
+    right: 1.5vw;
+    top: 57.5vh;
     border: none;
-    border-radius: 1vw;
+    border-radius: 0.6vw;
     font-size: 1.9vw;
     cursor: pointer;
     color: #ffffff;
     text-decoration: none;
     width: 13vw;
-    height: 5.6vw;
+    height: 2.6vw;
     text-align: center;
   }
   .events:hover{
@@ -128,11 +127,11 @@ body, div {
     color:#ffffff;
     background-color: #000000;
     font-family: "Jua";
-    position: fixed;
-    right: 0.5vw;
-    top: 72.5vh;
+    position:  absolute;
+    right: 1.5vw;
+    top: 69vh;
     border: none;
-    border-radius: 1vw;
+    border-radius: 0.6vw;
     font-size: 1.9vw;
     cursor: pointer;
     color: #ffffff;
@@ -144,24 +143,50 @@ body, div {
   .archive:hover{
     box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
-  .other{
-    color:#ffffff;
-    background-color: #000000;
-    font-family: "Jua";
-    position: fixed;
-    right: 0.5vw;
-    top: 80.5vh;
-    border: none;
-    border-radius: 1vw;
-    font-size: 1.9vw;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    width: 13vw;
-    height: 2.6vw;
-    text-align: center;
+  
+
+
+
+
+  /*image boxes start*/
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  left:70vw;
+  top:70vh;
+}
+
+.text-card1 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.2vw solid #000;
+  border-radius: 5vh;
+  text-align: center;
+  position:absolute;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+  top:41vh;
+  height:23vw;
+  right: 21vw;
+  width: 43vw;
+}
+
+
+  
+  .text-card img{
+    height:25vw;
+    width: 25vw;
   }
-  .other:hover{
-    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  .image{
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30vw; 
+    height:30vw;
+    left: 2vw; 
+    top: 37vh;
   }
-  }
+  
