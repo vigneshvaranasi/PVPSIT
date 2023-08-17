@@ -1,57 +1,135 @@
 /* Banner Start */
 body, div {
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  .banner {
-    position: relative; 
-  }
-  
-  
-  .banner img {
-    display: block; 
-    width: 100%;
-    height: auto; 
-    max-height: 100vh; 
-  }
-  /* Banner End */
- 
-  /* Back Button  Start*/
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner {
+  position: relative; 
+}
+
+
+.banner img {
+  display: block; 
+  width: 100%;
+  height: auto; 
+  max-height: 100vh; 
+}
+/* Banner End */
+
+/* Back Button  Start*/
 
 .fa-arrow-left-long{
-    color:#ffffff;
-    background-color: #000000;
-    position: fixed;
-    left: 0.5vw;
-    top: 26.5vh;
-    padding: 1.11vh 1.39vw;
-    background-color: #000000;
-    border: none;
-    border-radius: 1vw;
-    font-size: 1.8vw;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    width: 2vw;
-    height: 1.6vw;
-    text-align: center;
-  }
-  .fa-arrow-left-long:hover{
-    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-  }
-  
+  color:#ffffff;
+  background-color: #000000;
+  position: fixed;
+  left: 0.5vw;
+  top: 26.5vh;
+  padding: 1.11vh 1.39vw;
+  background-color: #000000;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  width: 2vw;
+  height: 1.6vw;
+  text-align: center;
+}
+.fa-arrow-left-long:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
 /* Back Button End */
 
 /* Designed By Start */
 .design{
+color:#ffffff;
+background-color: #000000;
+font-family: "Jua";
+position:  absolute;
+right: 1.5vw;
+top: 26.5vh;
+border: none;
+border-radius: 0.6vw;
+font-size: 1.9vw;
+cursor: pointer;
+color: #ffffff;
+text-decoration: none;
+width: 13vw;
+height: 2.6vw;
+text-align: center;
+}
+.design:hover{
+box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+/* Designed By End */
+
+/* innovation end */
+.label{
+  position:  absolute;
+  color: #000000;
+  font-family: "Jua";
+  font-size: 7vw;
+  text-shadow: 6px 2px 4px #ff7f0a;
+  width:50.05vw;
+  height:43.52vh;
+  top: 22.9vh;
+  left:33vw;
+  margin-right:15vw;
+}
+/* innovation end */
+
+
+/* Navigation Start */
+.about{
+  color:#ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position:  absolute;
+  border-radius: 0.6vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+
+  right: 1.5vw;
+  top: 55vh;
+  width: 13vw;
+  height: 2.6vw;
+}
+.about:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+.register{
+  color:#ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position:  absolute;
+  text-align: center;
+  border-radius: 0.6vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  text-decoration: none;
+
+  right: 1.5vw;
+  top: 65vh;
+  width: 13vw;
+  height: 2.6vw;
+}
+.register:hover{
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+.archive{
   color:#ffffff;
   background-color: #000000;
   font-family: "Jua";
   position:  absolute;
   right: 1.5vw;
-  top: 26.5vh;
+  top: 75vh;
   border: none;
   border-radius: 0.6vw;
   font-size: 1.9vw;
@@ -62,101 +140,17 @@ body, div {
   height: 2.6vw;
   text-align: center;
 }
-.design:hover{
+.archive:hover{
   box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
-/* Designed By End */
-  /* INNOVATION start */
-  .label .text-wrapper {
-    position:  absolute;
-    color: #000000;
-    font-family: "Jua";
-    font-size: 7vw;
-    text-shadow: 6px 2px 4px #ff7f0a;
-    width:50.05vw;
-    height:43.52vh;
-    top: 21.54vh;
-    left:25vw;
-   margin-right:15vw;
-  }
-   /* innovation end */
 
-   .about{
-    color:#ffffff;
-    background-color: #000000;
-    font-family: "Jua";
-    position:  absolute;
-    right: 1.5vw;
-    top: 46.5vh;
-    border: none;
-    border-radius: 0.6vw;
-    font-size: 1.9vw;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    width: 13vw;
-    height: 2.6vw;
-    text-align: center;
-  }
-  .about:hover{
-    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-  }
-  .events{
-    color:#ffffff;
-    background-color: #000000;
-    font-family: "Jua";
-    position:  absolute;
-    right: 1.5vw;
-    top: 57.5vh;
-    border: none;
-    border-radius: 0.6vw;
-    font-size: 1.9vw;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    width: 13vw;
-    height: 2.6vw;
-    text-align: center;
-  }
-  .events:hover{
-    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-  }
- 
-  .archive{
-    color:#ffffff;
-    background-color: #000000;
-    font-family: "Jua";
-    position:  absolute;
-    right: 1.5vw;
-    top: 69vh;
-    border: none;
-    border-radius: 0.6vw;
-    font-size: 1.9vw;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    width: 13vw;
-    height: 2.6vw;
-    text-align: center;
-  }
-  .archive:hover{
-    box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-  }
-  
+/* Navigation End */
 
-
-
-
-  /*image boxes start*/
-.card1 {
+/*Big Card start*/
+.card{
   display: flex;
   justify-content: space-between;
   padding: 100px;
-  left:70vw;
-  top:70vh;
-}
-
-.text-card1 {
   background-color: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -171,14 +165,16 @@ body, div {
   width: 43vw;
 }
 
-  .image{
-    position: absolute;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 30vw; 
-    height:30vw;
-    left: 2vw; 
-    top: 37vh;
-  }
+/*Big Card End*/
+
+.rocket{
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 29vw; 
+  height:29vw;
+  left: 2vw; 
+  top: 38vh;
+}
