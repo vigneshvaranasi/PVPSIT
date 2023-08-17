@@ -1,5 +1,6 @@
 
 /* Banner Start */
+
 body, div {
   margin: 0;
   padding: 0;
@@ -63,7 +64,7 @@ body, div {
   color: #000000;
   font-family: "Jua";
   font-size: 12vw; 
-  text-shadow: 0.46875vw 0.15625vw 0vw #ff7f0a;
+  text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   margin-right: 20px;
   top: -5vh; 
   left: 17vw; 
@@ -92,7 +93,7 @@ body, div {
   text-align: center;
 }
 .fa-arrow-left-long:hover{
-  box-shadow:0.46875vw 0.15625vw 0vw #ff7f0a;
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
 
@@ -118,7 +119,7 @@ body, div {
   text-align: center;
 }
 .design:hover{
-  box-shadow:0.46875vw 0.15625vw 0vw #ff7f0a;
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 /* Designed By End */
 
@@ -165,7 +166,7 @@ body, div {
 
 
 .text-card:hover{
-  box-shadow:0.7vw 0.7vw 0vw #ff7f0a;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
 }
 
 .text-card img{
@@ -181,7 +182,6 @@ body, div {
   text-decoration: none;
 }
 
-
 /* Card Hover Zoom Start */
 .text-card {
   overflow: hidden;
@@ -195,7 +195,6 @@ body, div {
 /* Card Hover Zoom End */
 
 /* Cards End*/
-
 
 /* Explore Button Start */
 .explore{
@@ -216,9 +215,7 @@ body, div {
   text-align: center;
 }
 .explore:hover{
-  box-shadow:0.3vw 0.3vw 0vw #ff7f0a;
+  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
 /* Explore Button End */
-
-
