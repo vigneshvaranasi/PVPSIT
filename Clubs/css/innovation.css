@@ -1,94 +1,97 @@
 /* Banner Start */
-body, div {
+body,
+div {
   margin: 0;
   padding: 0;
 }
 
 
 .banner {
-  position: relative; 
+  position: relative;
 }
 
 
 .banner img {
-  display: block; 
+  display: block;
   width: 100%;
-  height: auto; 
-  max-height: 100vh; 
+  height: auto;
+  max-height: 100vh;
 }
+
 /* Banner End */
 
 /* Back Button  Start*/
 
-.fa-arrow-left-long{
-  color:#ffffff;
+.fa-arrow-left-long {
+  color: #ffffff;
   background-color: #000000;
-  position: fixed;
+  position: absolute;
   left: 0.5vw;
   top: 26.5vh;
   padding: 1.11vh 1.39vw;
-  background-color: #000000;
   border: none;
   border-radius: 1vw;
   font-size: 1.8vw;
   cursor: pointer;
-  color: #ffffff;
   text-decoration: none;
   width: 2vw;
   height: 1.6vw;
   text-align: center;
 }
-.fa-arrow-left-long:hover{
-  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+
+.fa-arrow-left-long:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
 /* Back Button End */
 
 /* Designed By Start */
-.design{
-color:#ffffff;
-background-color: #000000;
-font-family: "Jua";
-position:  absolute;
-right: 1.5vw;
-top: 26.5vh;
-border: none;
-border-radius: 0.6vw;
-font-size: 1.9vw;
-cursor: pointer;
-color: #ffffff;
-text-decoration: none;
-width: 13vw;
-height: 2.6vw;
-text-align: center;
+.design {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: absolute;
+  right: 0.5vw;
+  top: 26.5vh;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  text-decoration: none;
+  width: 12vw;
+  height: 2.6vw;
+  text-align: center;
 }
-.design:hover{
-box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+
+.design:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
+
 /* Designed By End */
 
 /* innovation end */
-.label{
-  position:  absolute;
+.label {
+  position: absolute;
   color: #000000;
   font-family: "Jua";
   font-size: 7vw;
-  text-shadow: 6px 2px 4px #ff7f0a;
-  width:50.05vw;
-  height:43.52vh;
+  text-shadow: 2px 2px 4px #ff7f0a;
+  width: 50.05vw;
+  height: 43.52vh;
   top: 22.9vh;
-  left:33vw;
-  margin-right:15vw;
+  left: 33vw;
+  margin-right: 15vw;
 }
+
 /* innovation end */
 
 
 /* Navigation Start */
-.about{
-  color:#ffffff;
+.about {
+  color: #ffffff;
   background-color: #000000;
   font-family: "Jua";
-  position:  absolute;
+  position: absolute;
   border-radius: 0.6vw;
   font-size: 1.9vw;
   cursor: pointer;
@@ -100,14 +103,16 @@ box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   width: 13vw;
   height: 2.6vw;
 }
-.about:hover{
-  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+
+.about:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
-.register{
-  color:#ffffff;
+
+.register {
+  color: #ffffff;
   background-color: #000000;
   font-family: "Jua";
-  position:  absolute;
+  position: absolute;
   text-align: center;
   border-radius: 0.6vw;
   font-size: 1.9vw;
@@ -119,15 +124,16 @@ box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   width: 13vw;
   height: 2.6vw;
 }
-.register:hover{
-  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+
+.register:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
-.archive{
-  color:#ffffff;
+.archive {
+  color: #ffffff;
   background-color: #000000;
   font-family: "Jua";
-  position:  absolute;
+  position: absolute;
   right: 1.5vw;
   top: 75vh;
   border: none;
@@ -140,41 +146,137 @@ box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   height: 2.6vw;
   text-align: center;
 }
-.archive:hover{
-  box-shadow:0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+
+.archive:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
 /* Navigation End */
 
 /*Big Card start*/
-.card{
+.card {
   display: flex;
   justify-content: space-between;
   padding: 100px;
   background-color: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border:0.2vw solid #000;
+  border: 0.2vw solid #000;
   border-radius: 5vh;
   text-align: center;
-  position:absolute;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
-  top:41vh;
-  height:23vw;
+  position: absolute;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+  top: 41vh;
+  height: 23vw;
   right: 21vw;
   width: 43vw;
 }
 
 /*Big Card End*/
 
-.rocket{
+/* Rocket picture start */
+.rocket {
   position: absolute;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 29vw; 
-  height:29vw;
-  left: 2vw; 
+  width: 29vw;
+  height: 29vw;
+  left: 2vw;
   top: 38vh;
 }
+
+/* Rocket picture end */
+
+/* Events start */
+
+.dotted-events {
+  display: block;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5vh;
+  text-align: center;
+  position: absolute;
+  top: 105vh;
+  height: 23vw;
+  width: 88vw;
+  left: 4.5vw;
+  border: 0.2vw dashed #ff7f0a;  
+}
+
+/* Events End */
+
+/* Clcle Image Start*/
+.cycle {
+  position: absolute;
+  display: flex;
+  padding: 37.188px 18.881px 36.75px 18.881px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  top:153vh;
+  width: 46vw;
+  height:46vh;
+  right:-8vw;
+}
+
+/* Clcle Image end*/
+
+/* Qoutation Start */
+.quote {
+  position: absolute;
+  top:175vh;
+  border: 0vw none;
+  color: transparent;
+  font-family: "Jua";
+  font-size: 2.2vw;
+  font-weight: 400;
+  left: 4vw;
+  letter-spacing: 0;
+  line-height: normal;
+  color: #000;
+}
+
+.quote span {
+  color: #ff7f0a;
+}
+
+/* Qoutation End */
+
+/* Book Picture start */
+.book{
+  position: absolute;
+  display: flex;
+  padding: 37.188px 18.881px 36.75px 18.881px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  top:188vh;
+  width: 46vw;
+  height:120vh;
+  right:1vw;
+}
+/* Book Picture start */
+
+/* About Start */
+.dot-about{
+  display: block;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5vh;
+  text-align: center;
+  position: absolute;
+  top: 211vh;
+  height: 38vw;
+  width: 30vw;
+  left: 10vw;
+  border: 0.2vw dashed #ff7f0a;  
+}
+
+/* About Start */
+
