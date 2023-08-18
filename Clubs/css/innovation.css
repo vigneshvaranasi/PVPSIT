@@ -237,9 +237,9 @@ div {
 }
 
 
-.reports{
+.reports h1{
   font-family: "Jua";
-  display: block;
+  display:flexbox;
   justify-content: space-between;
   padding: 20px;
   text-align: center;
@@ -251,12 +251,11 @@ div {
 }
 .reportline{
   position: absolute;
-  left: 86vh;;
-  top:14vh;
+  right: 34vh;;
+  top:117vh;
   width: 12vw;
   border: 0.1vw black solid;
 }
-
 
 .events ul, .reports ul {
   font-family: "Jua";
@@ -272,14 +271,8 @@ div {
   left: 30vh;
 }
 .reports ul {
-  font-family: "Jua";
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  right: 90vh;
+  right: 35vh;
 }
-
-
 
 
 /* Events End */
