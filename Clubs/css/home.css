@@ -1,3 +1,4 @@
+
 body,
 div {
   margin: 0;
@@ -17,29 +18,7 @@ div {
   max-height: 100vh;
   flex-direction: row;
 }
-
 @media screen and (max-width: 426px) and (min-width: 300px) {
-
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .banner {
-    position: relative;
-  }
-
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-    flex-direction: row;
-  }
-
 
   .explore,
   .rabbit,
@@ -170,28 +149,6 @@ div {
 
 @media screen and (max-width: 1024px) and (min-width: 768px)
 {
-    /* Banner Start */
-
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .banner {
-    position: relative;
-  }
-
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
 
  /* Children Image Start */
 
@@ -408,30 +365,6 @@ div {
 @media screen and (max-width: 1366px) and (min-width: 1080px) 
 {
 
-  /* Banner Start */
-
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .banner {
-    position: relative;
-  }
-
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
-
-
   /* Children Image Start */
 
   .fun {
@@ -639,30 +572,6 @@ div {
 @media screen and (max-width: 1441px) and (min-width: 1367px) 
 {
 
-  /* Banner Start */
-
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .banner {
-    position: relative;
-  }
-
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
-
-
   /* Children Image Start */
 
   .fun {
@@ -869,30 +778,6 @@ div {
 
 @media screen and (max-width: 1921px) and (min-width: 1442px) 
 {
-
-  /* Banner Start */
-
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .banner {
-    position: relative;
-  }
-
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
-
 
   /* Children Image Start */
 
