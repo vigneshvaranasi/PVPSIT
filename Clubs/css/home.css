@@ -219,3 +219,151 @@ body, div {
 }
 
 /* Explore Button End */
+
+
+@media (width <=426px) {
+    
+    body,
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .banner {
+        position: relative;
+    }
+    
+    
+    .banner img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 100vh;
+        flex-direction: row;
+    }
+    
+    
+    .explore,.rabbit,.fun{
+        display: none;
+    }
+    .text-card img {
+        display: none;
+    }
+    
+    .text-card .line {
+        display: none;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .label {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .label .text-wrapper {
+        position: absolute;
+        color: #000000;
+        font-family: "Jua";
+        font-size: 20vw;
+        text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+        margin-right: 20px;
+        top: -3vh;
+        left: 22vw;
+    }
+
+    .fa-arrow-left-long {
+        color: #050505;
+        position: absolute;
+        left: 2vw;
+        top: 13vh;
+        font-size:5vw;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .fa-arrow-left-long:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+
+    
+    .design {
+        color: #000000;
+        font-family: "Jua";
+        position: absolute;
+        right: 5vw;
+        top: 13vh;
+        border: black;
+        border-radius: 1vw;
+        border: 0.2vw solid #000;
+        font-size: 2vw;
+        cursor: pointer;
+        text-decoration: none;
+        width: 13vw;
+        height: 2.5vw;
+        text-align: center;
+    }
+    
+    .design:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+    .container {
+        font-family: "Jua";
+        position: relative;
+        top: 25vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh; 
+      }
+      
+      .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 2px 2px;
+        height: auto;
+      }
+      
+      .text-card {
+        color: #000000;
+        padding: 10px;
+        font-size: 2vw;
+        border: 0.2vw solid #000;
+        border-radius: 3vh;
+        text-align:center;
+        width: 20vw;
+        height:3vh;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .text-card a {
+        color: #000000;
+        text-decoration: none;
+      }
+      
+      .text-card:hover {
+        box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+        transform: scale(1.05);
+      }
+      
+}
+
