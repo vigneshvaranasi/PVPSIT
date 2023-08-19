@@ -221,7 +221,7 @@ body, div {
 /* Explore Button End */
 
 
-@media (width <=426px) {
+@media screen and (max-width: 425px) and (min-width: 350px) {
     
     body,
     div {
