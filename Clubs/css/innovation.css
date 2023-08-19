@@ -246,8 +246,8 @@ div {
   position: absolute;
   top: 103vh;
   height: 23vw;
-  width: 88vw;
-  right: -24vw;
+  width: -120vw;
+  right: 18vw;
 }
 .reportline{
   position: absolute;
@@ -286,9 +286,9 @@ div {
   align-items: center;
   flex-shrink: 0;
   top:153vh;
-  width: 46vw;
+  width: -120vw;
   height:46vh;
-  right:-8vw;
+  right:0vw;
 }
 
 .road{
@@ -370,22 +370,22 @@ div {
 }
 .abouts {
   font-family: "Jua";
-  color;black;
+  color:black;
   display: block;
   border: none;
+  text-align:center;
   justify-content: space-between;
   padding: 20px;
-  text-align: center;
   position: absolute;
   top: 208vh;
   height: 30vw;
   width: 29vw;
-  left: 11vw;
+  left: 10vw;
   overflow:visible;
 }
 .aboutsline {
   position: absolute;
-  left: 47vh;
+  left: 45vh;
   color:black;
   top:220vh;
   width: 9vw;
