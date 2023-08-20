@@ -333,6 +333,23 @@ div {
 }
 /* Book Picture start */
 * About Start */
+.aboutstext {
+  font-family: "Jua";
+  color;black;
+  display: block;
+  border: none;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 218vh;
+  height: 30vw;
+  width: 29vw;
+  left: 10vw;
+  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+  white-space: nowrap; 
+}
 .dot-abouts{
   display: block;
   justify-content: space-between;
@@ -374,7 +391,6 @@ div {
   border: 0.1vw black solid; 
 }
 
-}
 /* about end */
 /*faculty cads*/
 .container {
