@@ -392,5 +392,212 @@ div {
   border: 0.1vw black solid; 
 }
 /* about end */
+/*faculty cads*/
+.container {
+  font-family: "Jua";
+  position: relative;
+  top:295vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cordinator-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 570px;
 
+}
+
+.faculty1 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left:15vw;
+  height:15vw;
+  width: 25vw;
+  gap: 40vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+.faculty2 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  right:15vw;
+  height: 15vw;
+  width: 25vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+/*faculty cars end */
+/* student cards */
+.boxes1 {
+  font-family: "Jua";
+  position: relative;
+  top:306vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.student-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
+
+}
+
+.student1 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+
+}
+.student2 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  right:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+
+}
+.student3 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+.student4 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  right:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+
+.boxes2 {
+  font-family: "Jua";
+  position: relative;
+  top:310vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.student-card2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
+}
+
+.student5 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left:15vw;
+  height:20vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+  width: 15vw;
+}
+.student6 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  right:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+.student7 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+
+}
+.student8 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  right:15vw;
+  height:20vw;
+  width: 15vw;
+  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+}
+/* student cards end*/
+/* shakinghands image start */
+.shakinghands{
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25vw; 
+  height:28vw;
+  right: 37.5vw; 
+  top:311vh;
+}
+/* shakinghands image end */
 
