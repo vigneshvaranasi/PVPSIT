@@ -350,23 +350,7 @@ div {
  
 }
 
-.textbox {
-  font-family: "Jua";
-  color:black;
-  display: block;
-  border: none;
-  justify-content: space-between;
-  padding: 20px;
-  position: absolute;
-  top: 218vh;
-  height: 30vw;
-  width: 29vw;
-  left: 10vw;
-  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
-  overflow: hidden; /* Hide any overflowing content */
-  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
- 
-}
+
 .abouts {
   font-family: "Jua";
   color:black;
@@ -391,6 +375,22 @@ div {
   border: 0.1vw black solid;
 }
 /* about end*/
+.textbox {
+  font-family: "Jua";
+  color:black;
+  display: block;
+  border: none;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 218vh;
+  height: 30vw;
+  width: 29vw;
+  left: 10vw;
+  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+}
 
  
 
