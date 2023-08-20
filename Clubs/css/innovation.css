@@ -346,6 +346,9 @@ div {
   width: 30vw;
   left: 10vw;
   border: 0.2vw dashed #ff7f0a;  
+  overflow: hidden;
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+ 
 }
 .abouts {
   font-family: "Jua";
