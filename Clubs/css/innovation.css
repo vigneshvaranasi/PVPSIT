@@ -167,7 +167,6 @@ div {
   font-size: 1.9vw;
   cursor: pointer;
   text-decoration: none;
-
   right: 1.5vw;
   top: 65vh;
   width: 13vw;
@@ -377,9 +376,7 @@ div {
   height: 38vw;
   width: 30vw;
   left: 10vw;
-  border: 0.2vw dashed #ff7f0a;  
- /* Prevents text from wrapping to the next line */
- 
+  border: 0.2vw dashed #ff7f0a;   
 }
 
 .abouts {
@@ -477,17 +474,19 @@ div {
 
 
 /* student cards Start*/
-.boxes1 {
+
+.boxes1,.boxes2 {
   font-family: "Jua";
   position: relative;
-  top:306vh;
+  top: 306vh;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.student-card {
+
+
+.student-card,.student-card2 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -495,134 +494,102 @@ div {
   flex-direction: row;
   align-items: center;
   gap: 90px;
-
+  
 }
 
-.student1 {
+.student1,.student2,.student3,.student4,.student5,.student6,.student7,.student8 {
   background-color: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 20px;
   flex-direction: row;
-  border:0.15vw solid #000;
+  border: 0.15vw solid #000;
   border-radius: 3vh;
   text-align: center;
-  left:15vw;
-  height:20vw;
+  left: 15vw;
+  height: 20vw;
   width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
-
-}
-.student2 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  right:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
-
-}
-.student3 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex-direction: row;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  left:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
-}
-.student4 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  right:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
 }
 
-.boxes2 {
-  font-family: "Jua";
+.simg1,.simg2,.simg3,.simg4,.simg5,.simg6,.simg7,.simg8{
+  background-color: #ffffff;
+  border: 0.15vw solid #000;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  height: 10vw;
+  width: 10vw;
+  top: 3vw;
+}
+
+.simg1,.simg5  {
+  left: 7vw;
+}
+.simg2,.simg6 {
+  left: 32.3vw;
+}
+.simg3,.simg7 {
+  left: 57.3vw;
+}
+.simg4,.simg8 {
+  left: 83vw;
+}
+
+.stun1,.stun2,.stun3,.stun4,.stun5,.stun6,.stun7,.stun8 {
   position: relative;
-  top:310vh;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.student-card2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 90px;
+  top: 23vh;
+  font-size: 1.6vw;
 }
 
-.student5 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex-direction: row;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  left:15vw;
-  height:20vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
-  width: 15vw;
+.line1{
+  position: relative;
+  border: 0.1vw black solid;
+  top:23vh;
 }
-.student6 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  right:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+.line2{
+  position: relative;
+  border: 0.1vw black solid;
+  top:24vh;
 }
-.student7 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex-direction: row;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  left:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
 
+
+.student-card .student1 a,.student-card .student2 a,.student-card .student3 a,.student-card .student4 a {
+  display: inline-block;
+  position: relative;
+  top:24vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000; 
+  text-decoration: none;
 }
-.student8 {
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
-  text-align: center;
-  right:15vw;
-  height:20vw;
-  width: 15vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+
+.student-card .student1 a:hover,
+.student-card .student2 a:hover,
+.student-card .student3 a:hover,
+.student-card .student4 a:hover {
+  color: #ff7f0a;
 }
-/* student cards end*/
+
+.student-card2 .student5 a,.student-card2 .student6 a,.student-card2 .student7 a,.student-card2 .student8 a {
+  display: inline-block;
+  position: relative;
+  top:24vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000; 
+  text-decoration: none;
+}
+
+.student-card2 .student5 a:hover,
+.student-card2 .student6 a:hover,
+.student-card2 .student7 a:hover,
+.student-card2 .student8 a:hover {
+  color: #ff7f0a;
+}
+
+/* student cards End*/
 
 /* shakinghands image start */
 .shakinghands{
