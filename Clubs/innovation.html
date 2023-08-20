@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Innovation Club || CSE</title>
-        <link rel="stylesheet" href="css/innovation.css"> 
+        <link rel="stylesheet" href="css/innovation.css">
         <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     </head>
@@ -17,25 +17,32 @@
     <a class="design" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Designed By</a>
 
 
-    <a class="about" href="#about" onclick="smoothScroll('#explore')">About</a>
+    <a class="about" href="#abt" onclick="smoothScroll('#abt')">About</a>
     <a class="register" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Registration</a>
     <a class="archive" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Archive</a>
    
-        <div class="label">INNOVATION</div>
-
-        <div class="card">
-                <a href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/innovation"></a>
+    <div class="label">INNOVATION</div>
+    
+    <div class="card">
+        <div class="slideshow">
+            <img class="slide" src="img/Innovation/img_mountains_wide.jpg" alt="Slide 1">
+            <img class="slide" src="img/Innovation/img_nature_wide.jpg" alt="Slide 2">
+            <img class="slide" src="img/Innovation/img_snow_wide.jpg" alt="Slide 3">
         </div>
-
-        <img src="img/Innovation/image.svg" alt="rocket" class="rocket">
-
-        <div class="dotted-events"></div>
-        
-        <div class="events">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <img src="img/Innovation/image.svg" alt="rocket" class="rocket">
+    
+    <div class="dotted-events"></div>
+    
+    <div class="events">
+            <img class="documents" src="img/Innovation/paperdocuments.svg" alt="Man catching documents">
             <div class="eventline"></div>
             <h1>Events</h1>            
             <ul>
-                <li>Coffee</li>
+                <li><a href="#">Coffee</a></li>
                 <li>Tea</li>
                 <li>Milk</li>
                 <li>Coffee</li>
@@ -47,7 +54,7 @@
             <div class="reportline"></div>
             <h1>Reports</h1>
             <ul>
-                <li>Tea</li>
+                <li><a href="#">Tea</a></li>
                 <li>Coffee</li>
                 <li>Milk</li>
                 <li>Coffee</li>
@@ -55,7 +62,6 @@
                 <li>Milk</li>
             </ul>  
         </div>
-        <img class="documents" src="img/Innovation/paperdocuments.svg" alt="Man catching documents">
         
         <img  class="cycle" src="img/Innovation/cycle.svg" alt="Cycle">
         <div class="road"></div>
@@ -67,7 +73,8 @@
         <div>
             <img class="book" src="img/Innovation/book.svg" alt="book">
         </div>
-       <div class="dot-abouts"></div>
+        
+        <div class="dot-abouts"></div>
         <div class="abouts">
             <h1>about</h1>            
         </div>
@@ -75,31 +82,33 @@
         <div class="textbox">
             <p>If you set right: 0; for your .reports element </p>
         </div>
+            
+        
         <section>
             <div class="container">
                 <div class="cordinator-card">
                     <div class="faculty1">
                     </div>
                     <div class="faculty2">
-                        </a>
+                    </a>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section>
             <div class="boxes1">
                 <div class="student-card">
                     <div class="student1">
+                        
                     </div>
-                    <div class="student2">
-                    </div>
-                    <div class="student3">
-                    </div>
-                    <div class="student4">
-                    </div>
+                    <div class="student2"></div>
+                    <div class="student3"></div>
+                    <div class="student4"></div>
                 </div>
             </div>
         </section>
+        
         <section>
             <div class="boxes2">
                 <div class="student-card2">
@@ -114,9 +123,13 @@
                 </div>
             </div>
         </section>
+        
         <div class="shakinghands">
             <img src="img/Innovation/shakinghands.svg" alt="shakinghands">
         </div>
+        <article id="abt"></article>
+
+        <script src="home.js"></script>
 </body>
 
 </html>
