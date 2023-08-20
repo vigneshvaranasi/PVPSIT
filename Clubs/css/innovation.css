@@ -5,20 +5,15 @@ div {
   padding: 0;
   overflow-x: hidden;
 }
-
-
 .banner {
   position: relative;
 }
-
-
 .banner img {
   display: block;
   width: 100%;
   height: auto;
   max-height: 100vh;
 }
-
 /* Banner End */
 
 /* Back Button  Start*/
@@ -375,7 +370,7 @@ div {
   width: 9vw;
   border: 0.1vw black solid; 
 }
-.abouttext {
+.aboutstext {
   font-family: "Jua";
   color;black;
   display: block;
