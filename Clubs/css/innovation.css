@@ -539,26 +539,26 @@ div {
 
 .stun1,.stun2,.stun3,.stun4,.stun5,.stun6,.stun7,.stun8 {
   position: relative;
-  top: 23vh;
+  top: 21vh;
   font-size: 1.6vw;
 }
 
 .line1{
   position: relative;
   border: 0.1vw black solid;
-  top:23vh;
+  top:21vh;
 }
 .line2{
   position: relative;
   border: 0.1vw black solid;
-  top:24vh;
+  top:22vh;
 }
 
 
 .student-card .student1 a,.student-card .student2 a,.student-card .student3 a,.student-card .student4 a {
   display: inline-block;
   position: relative;
-  top:24vh;
+  top:22vh;
   margin: 5px;
   font-size: 20px;
   color: #000; 
@@ -575,7 +575,7 @@ div {
 .student-card2 .student5 a,.student-card2 .student6 a,.student-card2 .student7 a,.student-card2 .student8 a {
   display: inline-block;
   position: relative;
-  top:24vh;
+  top:22vh;
   margin: 5px;
   font-size: 20px;
   color: #000; 
