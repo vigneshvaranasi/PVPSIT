@@ -82,6 +82,59 @@ div {
 /* innovation end */
 
 
+/* Big Card Images Start */
+
+.card {
+  display:block ;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 0.2vw solid #000;
+  border-radius: 5vh;
+  position: absolute;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+  top: 41vh;
+  height:23vw;
+  right: 21vw;
+  width: 43vw;
+  overflow: hidden; 
+}
+
+.slideshow {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: transform 5s ease-in-out;
+}
+
+.slide {
+  width:45vw;
+  height:23vw;
+  object-fit: cover;
+  display: flex;
+}
+
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2em;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Big Card Images End */
+
+
+
 /* Navigation Start */
 .about {
   color: #ffffff;
@@ -148,27 +201,6 @@ div {
 }
 
 /* Navigation End */
-
-/*Big Card start*/
-.card {
-  display: flex;
-  justify-content: space-between;
-  padding: 100px;
-  background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border: 0.2vw solid #000;
-  border-radius: 5vh;
-  text-align: center;
-  position: absolute;
-  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-  top: 41vh;
-  height: 23vw;
-  right: 21vw;
-  width: 43vw;
-}
-
-/*Big Card End*/
 
 /* Rocket picture start */
 .rocket {
@@ -241,12 +273,12 @@ div {
   position: absolute;
   top: 103vh;
   height: 23vw;
-  width: -120vw;
+  width: 11vw;
   right: 18vw;
 }
 .reportline{
   position: absolute;
-  right: 34vh;;
+  right: 41vh;;
   top:117vh;
   width: 12vw;
   border: 0.1vw black solid;
@@ -266,13 +298,13 @@ div {
   left: 30vh;
 }
 .reports ul {
-  right: 35vh;
+  right:40vh;
 }
-
 
 /* Events End */
 
-/* Clcle Image Start*/
+
+/* Cycle Image Start*/
 .cycle {
   position: absolute;
   display: flex;
@@ -294,8 +326,7 @@ div {
   border: 0.1vw black solid;
 }
 
-
-/* Clcle Image end*/
+/* Cycle Image end*/
 
 /* Qoutation Start */
 .quote {
@@ -332,6 +363,7 @@ div {
   right:1vw;
 }
 /* Book Picture start */
+
 /* About Start */
 .dot-abouts{
   display: block;
@@ -350,7 +382,6 @@ div {
  
 }
 
-
 .abouts {
   font-family: "Jua";
   color:black;
@@ -366,6 +397,7 @@ div {
   left: 10vw;
   overflow:visible;
  }
+
 .aboutsline {
   position: absolute;
   left: 45vh;
@@ -374,7 +406,6 @@ div {
   width: 9vw;
   border: 0.1vw black solid;
 }
-/* about end*/
 .textbox {
   font-family: "Jua";
   color:black;
@@ -387,15 +418,15 @@ div {
   height: 30vw;
   width: 29vw;
   left: 10vw;
-  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
-  overflow: hidden; /* Hide any overflowing content */
-  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+  max-width: 100%; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
 
- 
+/* About end */
 
-/* about end */
-/*faculty cads*/
+
+/*faculty cards Start*/
 .container {
   font-family: "Jua";
   position: relative;
@@ -442,8 +473,10 @@ div {
   width: 25vw;
   box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
 }
-/*faculty cars end */
-/* student cards */
+/*faculty cards end */
+
+
+/* student cards Start*/
 .boxes1 {
   font-family: "Jua";
   position: relative;
@@ -590,6 +623,7 @@ div {
   box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
 }
 /* student cards end*/
+
 /* shakinghands image start */
 .shakinghands{
   position: absolute;
