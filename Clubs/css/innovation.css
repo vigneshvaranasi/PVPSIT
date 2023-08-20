@@ -332,24 +332,7 @@ div {
   right:1vw;
 }
 /* Book Picture start */
-* About Start */
-.aboutstext {
-  font-family: "Jua";
-  color;black;
-  display: block;
-  border: none;
-  justify-content: space-between;
-  padding: 20px;
-  position: absolute;
-  top: 218vh;
-  height: 30vw;
-  width: 29vw;
-  left: 10vw;
-  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
-  overflow: hidden; /* Hide any overflowing content */
-  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
-  white-space: nowrap; 
-}
+/* About Start */
 .dot-abouts{
   display: block;
   justify-content: space-between;
@@ -363,8 +346,25 @@ div {
   width: 30vw;
   left: 10vw;
   border: 0.2vw dashed #ff7f0a;  
-  overflow: hidden;
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
+ /* Prevents text from wrapping to the next line */
+ 
+}
+
+.aboutstext {
+  font-family: "Jua";
+  color:black;
+  display: block;
+  border: none;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 218vh;
+  height: 30vw;
+  width: 29vw;
+  left: 10vw;
+  max-width: 100%; /* Ensure the text does not exceed the width of the parent */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
  
 }
 .abouts {
@@ -381,15 +381,18 @@ div {
   width: 29vw;
   left: 10vw;
   overflow:visible;
-}
+ }
 .aboutsline {
   position: absolute;
   left: 45vh;
   color:black;
   top:220vh;
   width: 9vw;
-  border: 0.1vw black solid; 
+  border: 0.1vw black solid;
 }
+/* about end*/
+
+ 
 
 /* about end */
 /*faculty cads*/
