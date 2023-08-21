@@ -422,8 +422,17 @@ div {
 
 /* About end */
 
-
 /*faculty cards Start*/
+.fc{
+  font-family: "Jua";
+  position: relative;
+  top:291vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   font-family: "Jua";
   position: relative;
@@ -440,11 +449,11 @@ div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 570px;
+  gap: 32vw;
 
 }
 
-.faculty1 {
+.faculty1,.faculty2 {
   background-color: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -452,28 +461,75 @@ div {
   border:0.15vw solid #000;
   border-radius: 3vh;
   text-align: center;
-  left:15vw;
   height:15vw;
-  width: 25vw;
-  gap: 40vw;
+  width: 28vw;
   box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+  
 }
-.faculty2 {
+
+.fac1,.fac2{
   background-color: #ffffff;
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border:0.15vw solid #000;
-  border-radius: 3vh;
+  border: 0.15vw solid #000;
+  border-radius: 10%;
+  position: absolute;
+  display: flex;
   text-align: center;
-  right:15vw;
-  height: 15vw;
-  width: 25vw;
-  box-shadow:0.7vw 0.7vw 1vw #ff7f0a;
+  padding: 0px;
+  height: 12vw;
+  width: 10vw;
+  top: 4.5vw;
 }
+
+.fac1{
+  left:22vw;
+}
+.fac2{
+  right:4.5vw;
+}
+
+.facn1,.facn2{
+  position: relative;
+  left:-7vw;
+  top: 5vh;
+  font-size: 1.6vw;
+}
+
+.fline1,.fline2{
+  position: relative;
+  border: 0.1vw black solid;
+  left:3vw;
+  width:10vw;
+  top:7vh;
+}
+
+.faculty1 a,.faculty2 a{
+  display: inline-block;
+  position: relative;
+  left:-6vw;
+  top:7vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000; 
+  text-decoration: none;
+}
+.faculty1 a:hover,.faculty2 a:hover{
+  color: #ff7f0a;
+}
+
 /*faculty cards end */
 
 
 /* student cards Start*/
+
+.sc{
+  font-family: "Jua";
+  position: relative;
+  top:308vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .boxes1,.boxes2 {
   font-family: "Jua";
@@ -601,7 +657,7 @@ div {
   width: 25vw; 
   height:28vw;
   right: 37.5vw; 
-  top:311vh;
+  top:324vh;
 }
 /* shakinghands image end */
 
