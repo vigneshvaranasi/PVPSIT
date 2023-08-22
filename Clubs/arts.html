@@ -1,306 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Arts Club || CSE</title>
-        <link rel="stylesheet" href="css/arts.css"> 
-        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts Club || CSE</title>
+    <link rel="stylesheet" href="css/arts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
 <body>
-    
+
     <div class="banner">
-    <img src="img/home/head.jpg" alt="Prasad V. Potluri Banner">
+        <img src="img/home/head.jpg" alt="Prasad V. Potluri Banner">
     </div>
 
     <a class="fa-solid fa-arrow-left-long" href="https://vigneshvaranasi.github.io/PVPSIT/Home"></a>
     <a class="design" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Designed By</a>
 
 
-    <a class="about" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">About</a>
+    <a class="about" href="#abt" onclick="smoothScroll('#abt')">About</a>
     <a class="register" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Registration</a>
     <a class="archive" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/Maintenance/Update">Archive</a>
-   
-        <div class="label">ARTS</div>
 
-        <div class="card">
-                <a href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/innovation"></a>
-        </div>
+    <div class="label">Arts</div>
 
-        <div class="rocket">
-                <img src="img/arts/Group.svg" alt="rocket">
+    <div class="card">
+        <div class="slideshow">
+            <img class="slide" src="img/Innovation/img_mountains_wide.jpg" alt="Slide 1">
+            <img class="slide" src="img/Innovation/img_nature_wide.jpg" alt="Slide 2">
+            <img class="slide" src="img/Innovation/img_snow_wide.jpg" alt="Slide 3">
         </div>
-           <div class="dotted-events"></div>
-            <div> <img class="documents" src="img/arts/woman-with-a-laptop 1.svg" alt="Man catching documents"></div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
-        <div class="events">
-            <div class="eventline"></div>
-            <h1>Events</h1>            
-            <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-            </ul>  
-        </div>
-        <div class="reports">
-            <div class="reportline"></div>
-            <h1>Reports</h1>
-            <ul>
-                <li>Tea</li>
-                <li>Coffee</li>
-                <li>Milk</li>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-            </ul>  
-        </div>
-        
-        <img  class="cycle" src="img/arts/freelancer 1.svg" alt="Cycle">
-        <div class="road"></div>
+    <img src="img/arts/Group.svg" alt="rocket" class="rocket">
 
-        <div class="quote">
-            <p>“<span>Art</span> has the power to <span>transform</span> to <span>illuminate</span>, to <span>educate,inspire</span> and <span>motivate.</span>“</p>
-        </div>
-        
-        <div>
-            <img class="book" src="img/arts/Clip path group.svg" alt="book">
-        </div>
-        
-        <div class="dot-abouts"></div>
-        <div class="abouts">
-            <h1>about</h1>            
-        </div>
-        <div class="aboutsline"></div>
-        <div class="textbox">
-            <p>Welcome to the vibrant world of the College Arts Club, where creativity knows no limits and imagination takes centre stage. 
-            </p>
-              <p></p>
-                <p>Our Vision: At the College Arts Club, our vision is to provide a platform for students to explore, express, and celebrate their artistic talents. We believe in the power of art to inspire, provoke thought, and bring people together, fostering a rich and diverse creative environment.</p>
+    <div class="dotted-events"></div>
+    <div class="dotted-reports"></div>
 
-                <p>Discover What We offer</p>
-                <ol>
-               <li>Artistic Workshops</li>
-               <li>Exhibitions and Showcases</li>
-               <li>Collaborative Projects</li>
-               <li>Art Talks and Discussions</li>
-               <li>Cultural Celebrations</li>
-                </ol>
-                <p></p>
-                <p>Whether you're a painter, a poet, a photographer, a dancer, or someone who appreciates the beauty of art, the College Arts Club is a canvas for your creativity. Join us in celebrating the magic of artistic expression and let's paint a colourful journey together. Welcome to a world where imagination knows no bounds!</p>
-        </div>
-        <section>
-            <section>
-                <h2 class="fc">Faculty Coordinators</h2>
-                <div class="container">
-                    <div class="cordinator-card">
-                        <div class="faculty1">
-                                <img class="fac1" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                                <p class="facn1">Vignesh<br>Position</p>
-                                <div class="fline1"></div>
-                                <a href="tel:+1234567890">
-                                    <i class="fas fa-phone"></i>
-                                </a>
-                                <a href="mailto:varanasivsv@gmail.com">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                                <a href="https://example.com/vig-twitter" target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://example.com/vig-instagram" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <div class="fline2"></div>
-                        </div>
-                        <div class="faculty2">
-                            <img class="fac2" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="facn2">Vignesh<br>Position</p>
-                            <div class="fline1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="fline2"></div>
-                        </div>
-                    </div>
+    <div class="events">
+        <img class="documents" src="img/arts/woman-with-a-laptop 1.svg" alt="Man catching documents">
+        <div class="eventline"></div>
+        <h1>Events</h1>
+        <ul>
+            <li><a href="#">Coffee</a></li>
+            <li>Tea</li>
+            <li>Milk</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+    <div class="reports">
+        <div class="reportline"></div>
+        <h1>Reports</h1>
+        <ul>
+            <li><a href="#">Tea</a></li>
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+
+    <img class="cycle" src="img/arts/freelancer 1.svg" alt="Cycle">
+    <div class="road"></div>
+
+    <div class="quote">
+        <p>“<span>Art</span> has the power to <span>transform</span> to <span>illuminate</span>, to <span>educate,inspire</span> and <span>motivate</span>.“</p>
+    </div>
+
+    <div>
+        <img class="book" src="img/arts/Clip path group.svg" alt="book">
+    </div>
+
+    <div class="dot-abouts"></div>
+    <div class="abouts">
+        <h1>About</h1>
+    </div>
+    <div class="aboutsline"></div>
+    <div class="textbox">
+        <p>Welcome to the vibrant world of the College Arts Club, where creativity knows no limits and imagination takes centre stage. 
+        </p>
+          <p></p>
+            <p>Our Vision: At the College Arts Club, our vision is to provide a platform for students to explore, express, and celebrate their artistic talents. We believe in the power of art to inspire, provoke thought, and bring people together, fostering a rich and diverse creative environment.</p>
+
+            <p>Discover What We offer</p>
+            <ol>
+           <li>Artistic Workshops</li>
+           <li>Exhibitions and Showcases</li>
+           <li>Collaborative Projects</li>
+           <li>Art Talks and Discussions</li>
+           <li>Cultural Celebrations</li>
+            </ol>
+            <p></p>
+            <p>Whether you're a painter, a poet, a photographer, a dancer, or someone who appreciates the beauty of art, the College Arts Club is a canvas for your creativity. Join us in celebrating the magic of artistic expression and let's paint a colourful journey together. Welcome to a world where imagination knows no bounds!</p>
+    </div>
+
+
+    <section>
+        <h2 class="fc">Faculty Coordinators</h2>
+        <div class="container">
+            <div class="cordinator-card">
+                <div class="faculty1">
+                        <img class="fac1" src="img/Innovation/paperdocuments.svg" alt="Faculty Coordinator 1">
+                        <p class="facn1">Vignesh<br>Position</p>
+                        <div class="fline1"></div>
+                        <a href="tel:+1234567890">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:varanasivsv@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://example.com/vig-twitter" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://example.com/vig-instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <div class="fline2"></div>
                 </div>
-            </section>
-        
-            <section>
-                <h2 class="sc">Student Coordinators</h2>
-                <div class="boxes1">
-                    <div class="student-card">
-                        <div class="student1">
-                            <img class="simg1" src="img/arts/cycle.svg" alt="Student Coordinator 1">
-                            <p class="stun1">Vivek<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-        
-                        <div class="student2">
-                            <img class="simg2" src="img/arts/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun2">Vijaya<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                        <div class="student3">
-                            <img class="simg3" src="img/arts/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun3">Sai<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                        <div class="student4">
-                            <img class="simg4" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun4">Vignesh<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                    </div>
+                <div class="faculty2">
+                    <img class="fac2" src="img/Innovation/paperdocuments.svg" alt="Faculty Coordinator 2">
+                    <p class="facn2">Vignesh<br>Position</p>
+                    <div class="fline1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="fline2"></div>
                 </div>
-            </section>
-        
-            <section>
-                <div class="boxes2">
-                    <div class="student-card2">
-                        <div class="student5">
-                            <img class="simg5" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun5">Vignesh<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                        <div class="student6">
-                            <img class="simg6" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun6">Varanasi<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                        <div class="student7">
-                            <img class="simg7" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun7">VVSV<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                        <div class="student8">
-                            <img class="simg8" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
-                            <p class="stun8">Vijaya Sai<br>Position</p>
-                            <div class="line1"></div>
-                            <a href="tel:+1234567890">
-                                <i class="fas fa-phone"></i>
-                            </a>
-                            <a href="mailto:varanasivsv@gmail.com">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://example.com/vig-twitter" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://example.com/vig-instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <div class="line2"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        
-           
-            <article id="abt"></article>
-        <div class="shakinghands">
-            <img src="img/Innovation/shakinghands.svg" alt="shakinghands">
+            </div>
         </div>
+    </section>
+
+    <section>
+        <h2 class="sc">Student Coordinators</h2>
+        <div class="boxes1">
+            <div class="student-card">
+                <div class="student1">
+                    <img class="simg1" src="img/Innovation/cycle.svg" alt="Student Coordinator 1">
+                    <p class="stun1">Vivek<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+
+                <div class="student2">
+                    <img class="simg2" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun2">Vijaya<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+                <div class="student3">
+                    <img class="simg3" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun3">Sai<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+                <div class="student4">
+                    <img class="simg4" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun4">Vignesh<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="boxes2">
+            <div class="student-card2">
+                <div class="student5">
+                    <img class="simg5" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun5">Vignesh<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+                <div class="student6">
+                    <img class="simg6" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun6">Varanasi<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+                <div class="student7">
+                    <img class="simg7" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun7">VVSV<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+                <div class="student8">
+                    <img class="simg8" src="img/Innovation/paperdocuments.svg" alt="Student Coordinator 2">
+                    <p class="stun8">Vijaya Sai<br>Position</p>
+                    <div class="line1"></div>
+                    <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:varanasivsv@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://example.com/vig-twitter" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://example.com/vig-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="shakinghands">
+        <img src="img/Innovation/shakinghands.svg" alt="shakinghands">
+    </div>
+    <article id="abt"></article>
+
+    <script src="home.js"></script>
 </body>
 
 </html>
