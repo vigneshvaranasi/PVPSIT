@@ -286,7 +286,7 @@ div {
   align-items: center;
   flex-shrink: 0;
   top:153vh;
-  width: -120vw;
+  width: 19vw;
   height:46vh;
   right:0vw;
 }
@@ -396,7 +396,7 @@ div {
 
 /* About end */
 
-/faculty cards Start/
+/*faculty cards Start*/
 
 /* shakinghands image start */
 .shakinghands{
@@ -405,9 +405,9 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 25vw; 
+  width: 24vw; 
   height:28vw;
-  right: 36.5vw; 
+  right: 37vw; 
   top:318vh;
 }
 /* shakinghands image end */
@@ -1025,7 +1025,7 @@ div {
 
 /* About end */
 
-/faculty cards Start/
+/*faculty cards Start*/
 
 /* shakinghands image start */
 .shakinghands{
@@ -1658,7 +1658,7 @@ div {
 
 /* About end */
 
-/faculty cards Start/
+/*faculty cards Start*/
 
 /* shakinghands image start */
 .shakinghands{
