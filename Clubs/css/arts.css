@@ -211,8 +211,8 @@ body, div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 30vw; 
-  height:30vw;
+  width: 28vw; 
+  height:28vw;
   left: 2vw; 
   top: 37vh;
 }
