@@ -2641,7 +2641,7 @@ div {
 
 /* Navigation Start */
 
-.about,.register,.archive{
+.about,.register,.archive,.Gallery{
  color: #ffffff;
  background-color: #000000;
  font-family: "Jua";
@@ -2657,15 +2657,18 @@ div {
 }
 
 .about {
- top: 55vh;
+ top: 50vh;
 }
 .register {
- top: 65vh;
+ top: 60vh;
 }
 .archive {
- top: 75vh;
-}
-.about:hover,.register:hover,.archive:hover {
+ top: 70vh;
+} 
+.Gallery {
+  top: 80vh;
+ }
+.about:hover,.register:hover,.archive:hover,.Gallery:hover {
  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
