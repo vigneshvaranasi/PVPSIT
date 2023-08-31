@@ -62,7 +62,7 @@ div {
     left: 18vw;
   }
 
-  .fa-house {
+  .fa-arrow-left-long {
     color: #050505;
     position: absolute;
     left: 4vw;
@@ -221,8 +221,9 @@ div {
 
 /* Back Button  Start*/
 
-.fa-house{
-  color: #000000;
+.fa-arrow-left-long {
+  color: #ffffff;
+  background-color: #000000;
   position: absolute;
   left: 0.5vw;
   top: 13vh;
@@ -237,10 +238,10 @@ div {
   text-align: center;
 }
 
-/* .fa-arrow-left-long:hover {
+.fa-arrow-left-long:hover {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
- */
+
 
 /* Back Button End */
 
@@ -417,13 +418,15 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-house {
-    color: #000000;
+  .fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;
     position: absolute;
     left: 0.5vw;
     top: 26.5vh;
     padding: 1.11vh 1.39vw;
-
+    border: none;
+    border-radius: 1vw;  
     font-size: 1.8vw;
     cursor: pointer;
     text-decoration: none;
@@ -431,7 +434,10 @@ div {
     height: 1.6vw;
     text-align: center;
   }
-
+  .fa-arrow-left-long:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  
 
 
   /* Back Button End */
@@ -619,8 +625,9 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-house {
-    color: #000000;
+  .fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;  
     position: absolute;
     left: 0.5vw;
     top: 26.5vh;
@@ -635,10 +642,10 @@ div {
     text-align: center;
   }
 
-/*   .fa-arrow-left-long:hover {
+  .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
- */
+
 
   /* Back Button End */
 
@@ -769,7 +776,7 @@ div {
 }
 
 
-@media screen and (max-width: 1921px) and (min-width: 1442px) 
+@media screen and (max-width: 1925px) and (min-width: 1442px) 
 {
 
   /* Children Image Start */
@@ -825,8 +832,9 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-house {
-    color: #000000;
+  .fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;  
     position: absolute;
     left: 0.5vw;
     top: 26.5vh;
@@ -841,10 +849,10 @@ div {
     text-align: center;
   }
 
-/*   .fa-arrow-left-long:hover {
+  .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
- */
+
 
   /* Back Button End */
 
