@@ -25,7 +25,7 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-house {
+  .fa-arrow-left-long{
     color: #050505;
     position: absolute;
     left: 4vw;
@@ -543,8 +543,9 @@ div {
 
 /* Back Button  Start*/
 
-.fa-house {
-  color: #000000;
+.fa-arrow-left-long {                                                     
+  color: #ffffff;
+  background-color: #000000;
   position: absolute;
   left: 0.5vw;
   top: 26.5vh;
@@ -558,10 +559,10 @@ div {
   height: 1.6vw;
   text-align: center;
 }
-/* 
+
 .fa-arrow-left-long:hover {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-} */
+}
 
 /* Back Button End */
 
@@ -1175,8 +1176,9 @@ div {
 
 /* Back Button  Start*/
 
-.fa-house{
-  color: #000000;
+.fa-arrow-left-long {                                                     
+  color: #ffffff;
+  background-color: #000000;
   position: absolute;
   left: 0.5vw;
   top: 26.5vh;
@@ -1191,10 +1193,10 @@ div {
   text-align: center;
 }
 
-/* .fa-arrow-left-long:hover {
+.fa-arrow-left-long:hover {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
- */
+
 /* Back Button End */
 
 /* Designed By Start */
@@ -1807,8 +1809,9 @@ div {
 
 /* Back Button  Start*/
 
-.fa-house {
-  color: #000000;
+.fa-arrow-left-long {                                                     
+  color: #ffffff;
+  background-color: #000000;
   position: absolute;
   left: 0.5vw;
   top: 26.5vh;
@@ -1823,9 +1826,9 @@ div {
   text-align: center;
 }
 
-/* .fa-arrow-left-long:hover {
+.fa-arrow-left-long:hover {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-} */
+}
 
 /* Back Button End */
 
