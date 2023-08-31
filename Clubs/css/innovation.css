@@ -587,6 +587,7 @@ div {
 
 /* Designed By End */
 
+
 /* innovation start */
 .label {
   position: absolute;
@@ -717,6 +718,29 @@ div {
 .archive:hover {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
+
+.Gallery{
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: absolute;
+  right: 1.5vw;
+  top: 42vh;
+  border: none;
+  border-radius: 0.6vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  width: 13vw;
+  height: 2.6vw;
+  text-align: center;
+
+}
+.Gallery:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
 
 /* Navigation End */
 
