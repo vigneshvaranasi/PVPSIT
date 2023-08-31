@@ -1,4 +1,4 @@
-- [Main Site](https://vigneshvaranasi.github.io/PVPSIT/Home)
+- [Main Site](https://vigneshvaranasi.github.io/PVPSIT/Clubs/Home)
 
 
 - [Innovation](https://vigneshvaranasi.github.io/PVPSIT/Clubs/innovation)
