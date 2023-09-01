@@ -128,14 +128,12 @@ div {
     color: transparent;
     font-family: "Oswald-Bold", Helvetica;
     font-size: 190px;
-    font-weight:0 ;
-    left: 25vw;
+    left: 28vw;
     letter-spacing: 1px;
     line-height: 303.4px;
-    position: absolute;
-    top: -7vh;
+    position: fixed;
+    top: 38vh;
     white-space: nowrap;
-    width: 503px;
 }
 .reports ul {
   font-family: "Jua";
