@@ -151,3 +151,6 @@ div {
     color: #000;
     text-decoration: none;
 }
+.reports a:hover{
+    color:#ff7f0a
+}
