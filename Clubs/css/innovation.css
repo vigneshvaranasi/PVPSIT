@@ -561,8 +561,8 @@ div {
   }
 
   .fa-arrow-left-long:hover {
-  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-}
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
 
   /* Back Button End */
 
@@ -1272,7 +1272,7 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-arrow-left-long {                                                     
+  .fa-arrow-left-long {
     color: #ffffff;
     background-color: #000000;
     position: absolute;
@@ -1290,8 +1290,8 @@ div {
   }
 
   .fa-arrow-left-long:hover {
-  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-}
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
 
   /* Back Button End */
 
@@ -1672,7 +1672,6 @@ div {
   /* shakinghands image start */
   .shakinghands {
     position: absolute;
-    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1686,7 +1685,7 @@ div {
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 286vh;
+    top: 288vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1793,7 +1792,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 298vh;
+    top: 290vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1804,7 +1803,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 301vh;
+    top: 293vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1949,6 +1948,39 @@ div {
   .student-card2 .student8 a:hover {
     color: #ff7f0a;
   }
+
+  /* Social Handles Start */
+  .sh {
+    font-family: "Jua";
+    position: relative;
+    top: 287vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .sh-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .social a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social a:hover {
+    color: #ff7f0a;
+  }
+
+  /* Social Handles Start */
 }
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
@@ -1976,7 +2008,7 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-arrow-left-long {                                                     
+  .fa-arrow-left-long {
     color: #ffffff;
     background-color: #000000;
     position: absolute;
@@ -1994,8 +2026,8 @@ div {
   }
 
   .fa-arrow-left-long:hover {
-  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-}
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
 
   /* Back Button End */
 
@@ -2680,7 +2712,7 @@ div {
 
   /* Back Button  Start*/
 
-  .fa-arrow-left-long {                                                     
+  .fa-arrow-left-long {
     color: #ffffff;
     background-color: #000000;
     position: absolute;
