@@ -1250,6 +1250,39 @@ div {
   }
 
   /* Social Handles Start */
+
+    /* Social Handles Start */
+    .sh {
+      font-family: "Jua";
+      position: relative;
+      top: 287vh;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    .sh-heading {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+  
+    .social a {
+      display: inline-block;
+      margin: 5px;
+      font-size: 24px;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+  
+    .social a:hover {
+      color: #ff7f0a;
+    }
+  
+    /* Social Handles Start */
 }
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
