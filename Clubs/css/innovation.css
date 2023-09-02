@@ -538,9 +538,7 @@ div {
 }
 
 
- 
-
- @media screen and (max-width: 1079px) and (min-width: 768px){
+  @media screen and (max-width: 1079px) and (min-width: 768px){
 
   /* Back Button  Start*/
 
@@ -1053,14 +1051,14 @@ div {
   border: 0.1vw black solid;
   left:0vw;
   width:17vw;
-  top:5vh;
+  top:4vh;
 }
 
 .faculty1 a,.faculty2 a{
   display: inline-block;
   position: relative;
   left:-6vw;
-  top:5vh;
+  top:4vh;
   margin: 5px;
   font-size: 20px;
   color: #000; 
@@ -1244,9 +1242,42 @@ div {
   top:220vh;
 }
 /* shakinghands image end */
+/* Social Handles Start */
+.sh {
+  font-family: "Jua";
+  position: relative;
+  top: 180vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sh-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.social a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #ff7f0a;
+}
+
+/* Social Handles Start */
 
 }
 
+ 
 @media screen and (max-width: 1366px) and (min-width: 1080px) {
 
   /* Back Button  Start*/
