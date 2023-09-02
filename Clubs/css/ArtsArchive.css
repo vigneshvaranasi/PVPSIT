@@ -123,16 +123,17 @@ div {
     margin-right: 15vw;
 }
 
+
 .number span {
-    -webkit-text-stroke: 2.5px #fb6816;
+    -webkit-text-stroke: 0.2vw #fb6816;
     color: transparent;
     font-family: "Oswald-Bold", Helvetica;
-    font-size: 190px;
+    font-size: 15.1vw;
     left: 28vw;
-    letter-spacing: 1px;
-    line-height: 303.4px;
+    letter-spacing: 0.065vw;
+    line-height: 19.8vw;
     position: fixed;
-    top: 38vh;
+    top: 42.2vh;
     white-space: nowrap;
 }
 .reports ul {
