@@ -2131,7 +2131,6 @@ div {
   /* Navigation Start */
 
   .about,
-  .register,
   .archive,
   .Gallery {
     color: #ffffff;
@@ -2149,19 +2148,14 @@ div {
   }
 
   .about {
-    top: 50vh;
+    top: 55vh;
   }
-
-  .register {
-    top: 60vh;
-  }
-
   .archive {
-    top: 70vh;
+    top: 67vh;
   }
 
   .Gallery {
-    top: 80vh;
+    top: 79vh;
   }
 
   .about:hover,
@@ -2172,6 +2166,8 @@ div {
   }
 
   /* Navigation End */
+
+
   /* Rocket picture start */
   .rocket {
     position: absolute;
@@ -2227,7 +2223,13 @@ div {
     width: 88vw;
     left: -24vw;
   }
-
+.events a{
+    color: #000;
+    text-decoration: none;
+}
+.events a:hover{
+  color:#ff7f0a
+}
   .eventline {
     position: absolute;
     left: 38.5vh;
@@ -2250,6 +2252,13 @@ div {
     width: 11vw;
     right: 18vw;
   }
+.reports a{
+    color: #000;
+    text-decoration: none;
+}
+.reports a:hover{
+  color:#ff7f0a
+}
 
   .reportline {
     position: absolute;
