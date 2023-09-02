@@ -2957,10 +2957,10 @@ div {
 
   .eventline {
     position: absolute;
-    left: 34vh;
+    left: 38.5vh;
     ;
     top: 115vh;
-    width: 10vw;
+    width: 7.2vw;
     border: 0.1vw black solid;
   }
 
@@ -2980,10 +2980,10 @@ div {
 
   .reportline {
     position: absolute;
-    right: 40vh;
+    right: 44.2vh;
     ;
     top: 115vh;
-    width: 10vw;
+    width: 8.5vw;
     border: 0.1vw black solid;
   }
 
@@ -3105,10 +3105,10 @@ div {
 
   .aboutsline {
     position: absolute;
-    left: 45.5vh;
+    left: 49.5vh;
     color: black;
     top: 219vh;
-    width: 8vw;
+    width: 6vw;
     border: 0.1vw black solid;
   }
 
@@ -3136,14 +3136,13 @@ div {
   /* shakinghands image start */
   .shakinghands {
     position: absolute;
-    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 27vw;
     height: 29vw;
     right: 36vw;
-    top: 316vh;
+    top: 314vh;
   }
 
   /* shakinghands image end */
@@ -3257,7 +3256,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 298vh;
+    top: 293vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -3268,7 +3267,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 301vh;
+    top: 293vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -3421,7 +3420,7 @@ div {
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 295vh;
+    top: 286vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
