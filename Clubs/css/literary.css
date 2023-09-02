@@ -1250,39 +1250,6 @@ div {
   }
 
   /* Social Handles Start */
-
-    /* Social Handles Start */
-    .sh {
-      font-family: "Jua";
-      position: relative;
-      top: 287vh;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-  
-    .sh-heading {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #000000;
-    }
-  
-    .social a {
-      display: inline-block;
-      margin: 5px;
-      font-size: 24px;
-      color: #333;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-  
-    .social a:hover {
-      color: #ff7f0a;
-    }
-  
-    /* Social Handles Start */
 }
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
@@ -2267,10 +2234,10 @@ div {
 
   .eventline {
     position: absolute;
-    left: 34vh;
+    left: 38.5vh;
     ;
     top: 115vh;
-    width: 11vw;
+    width: 7.2vw;
     border: 0.1vw black solid;
   }
 
@@ -2290,10 +2257,10 @@ div {
 
   .reportline {
     position: absolute;
-    right: 39vh;
+    right: 44.2vh;
     ;
     top: 115vh;
-    width: 11vw;
+    width: 8.5vw;
     border: 0.1vw black solid;
   }
 
@@ -2415,10 +2382,10 @@ div {
 
   .aboutsline {
     position: absolute;
-    left: 45.5vh;
+    left: 49.5vh;
     color: black;
     top: 219vh;
-    width: 8vw;
+    width: 6vw;
     border: 0.1vw black solid;
   }
 
@@ -2447,7 +2414,6 @@ div {
   /* shakinghands image start */
   .shakinghands {
     position: absolute;
-    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2568,7 +2534,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 298vh;
+    top: 293vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2579,7 +2545,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 301vh;
+    top: 295vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2727,4 +2693,35 @@ div {
   }
 
   /* student cards End*/
+  /* Social Handles Start */
+.sh {
+  font-family: "Jua";
+  position: relative;
+  top: 287vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sh-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.social a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #ff7f0a;
+}
+
 }
