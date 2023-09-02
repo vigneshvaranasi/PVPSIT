@@ -538,6 +538,8 @@ div {
 }
 
 
+ 
+
  @media screen and (max-width: 1079px) and (min-width: 768px){
 
   /* Back Button  Start*/
@@ -547,15 +549,15 @@ div {
   color: #ffffff;
   background-color: #000000;
   position: absolute;
-  left: 0.5vw;
-  top: 12vh;
+  left:2vw;
+  top: 9.4vh;
   padding: 1.11vh 1.39vw;
   border: none;
   border-radius: 1vw;
   font-size: 1.8vw;
   cursor: pointer;
   text-decoration: none;
-  width: 3vw;
+  width: 4vw;
   height: 1.6vw;
   text-align: center;
 }
@@ -573,7 +575,7 @@ div {
   font-family: "Jua";
   position: absolute;
   right: 0.5vw;
-  top: 16vh;
+  top: 9.4vh;
   border: none;
   border-radius: 1vw;
   font-size: 1.9vw;
@@ -672,7 +674,7 @@ div {
   text-align: center;
 
   right: 1.5vw;
-  top: 25vh;
+  top: 24vh;
   width: 13vw;
   height: 2.6vw;
 }
@@ -693,7 +695,7 @@ div {
   text-decoration: none;
 
   right: 1.5vw;
-  top: 31vh;
+  top: 28.5vh;
   width: 13vw;
   height: 2.6vw;
 }
@@ -708,7 +710,7 @@ div {
   font-family: "Jua";
   position: absolute;
   right: 1.5vw;
-  top: 37vh;
+  top: 33vh;
   border: none;
   border-radius: 0.6vw;
   font-size: 1.9vw;
@@ -730,7 +732,7 @@ div {
   font-family: "Jua";
   position: absolute;
   right: 1.5vw;
-  top: 42vh;
+  top: 37vh;
   border: none;
   border-radius: 0.6vw;
   font-size: 1.9vw;
@@ -764,7 +766,7 @@ div {
 
 /*Rocket picture end */
 
-/* Events start */
+
 
 
 /* Events start */
@@ -786,9 +788,9 @@ div {
 /* Documents Image start */
 .documents{
   position: absolute;
-  top:60vh;
+  top:59vh;
   left:20vw;
-  height:35vh;
+  height:27vh;
   width: 60vw;
 }
 /* Documents Image end */
@@ -800,16 +802,16 @@ div {
   padding: 20px;
   text-align: center;
   position: absolute;
-  top: 50vh;
+  top: 60vh;
   height: 23vw;
-  width: -88vw;
-  left: -24vw;
+  width: 88vw;
+  left: -23vw;
 }
 .eventline{
   position: absolute;
   left: 13vh;;
   top:67.5vh;
-  width: 11vw;
+  width: 13vw;
   border: 0.1vw black solid;
 }
 
@@ -820,14 +822,14 @@ div {
   padding: 20px;
   text-align: center;
   position: absolute;
-  top: 55vh;
+  top: 60vh;
   height: 23vw;
   width: 11vw;
-  right: 11vw;
+  right: 15.3vw;
 }
 .reportline{
   position: absolute;
-  right: 12vh;;
+  right: 11vh;;
   top:67.5vh;
   width: 15vw;
   border: 0.1vw black solid;
@@ -862,15 +864,15 @@ div {
   align-items: center;
   flex-shrink: 0;
   top:92.1vh;
-  width: -120vw;
-  height:33vh;
+  width: 45vw;
+  height:30vh;
   right:0vw;
 }
 
 .road{
   position: absolute;
   left: 6vh;;
-  top:128vh;
+  top:123vh;
   width: 90vw;
   border: 0.1vw black solid;
 }
@@ -886,7 +888,7 @@ div {
   border: 0vw none;
   color: transparent;
   font-family: "Jua";
-  font-size: 2.2vw;
+  font-size: 2vw;
   font-weight: 400;
   left: 4vw;
   letter-spacing: 0;
@@ -908,7 +910,7 @@ div {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  top:96vh;
+  top:94vh;
   width: 48vw;
   height:120vh;
   right:1vw;
@@ -940,7 +942,7 @@ div {
   justify-content: space-between;
   padding: 20px;
   position: absolute;
-  top: 135vh;
+  top: 138vh;
   height: 30vw;
   width: 29vw;
   left: 10vw;
@@ -950,10 +952,10 @@ div {
 
 .aboutsline {
   position: absolute;
-  left: 25vh;
+  left: 16vh;
   color:black;
-  top:147vh;
-  width: 10vw;
+  top:145vh;
+  width: 10.5vw;
   border: 0.1vw black solid;
 }
 .textbox {
