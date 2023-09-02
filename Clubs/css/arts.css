@@ -681,19 +681,19 @@ div {
   }
 
   .about {
-    top: 50vh;
+    top: 53vh;
   }
 
-  .register {
+/*   .register {
     top: 60vh;
   }
-
+ */
   .archive {
-    top: 70vh;
+    top: 64vh;
   }
 
   .Gallery {
-    top: 80vh;
+    top: 75vh;
   }
 
   .about:hover,
@@ -763,7 +763,7 @@ div {
 
   .eventline {
     position: absolute;
-    left: 36.7vh;
+    left: 37vh;
     top: 117vh;
     width: 9vw;
     border: 0.1vw black solid;
@@ -784,7 +784,7 @@ div {
 
   .reportline {
     position: absolute;
-    right: 41.5vh;
+    right: 42.5vh;
     top: 117vh;
     width: 11vw;
     border: 0.1vw black solid;
@@ -804,11 +804,27 @@ div {
   .events ul {
     left: 26vh;
   }
+  .events a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .events a:hover {
+    color: #ff7f0a
+  }
 
   .reports ul {
     right: 43vh;
   }
 
+  .reports a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .reports a:hover {
+    color: #ff7f0a
+  }
   /* Events End */
 
 
@@ -907,9 +923,9 @@ div {
 
   .aboutsline {
     position: absolute;
-    left: 47vh;
+    left: 47.5vh;
     color: black;
-    top: 222vh;
+    top: 221.5vh;
     width: 8.5vw;
     border: 0.1vw black solid;
   }
@@ -1414,19 +1430,19 @@ div {
   }
 
   .about {
-    top: 50vh;
+    top: 53vh;
   }
 
-  .register {
+/*   .register {
     top: 60vh;
   }
-
+ */
   .archive {
-    top: 70vh;
+    top: 64vh;
   }
 
   .Gallery {
-    top: 80vh;
+    top: 75vh;
   }
 
   .about:hover,
@@ -1541,6 +1557,24 @@ div {
   .reports ul {
     right: 43vh;
   }
+    
+  .events a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .events a:hover {
+    color: #ff7f0a
+  }
+  .reports a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .reports a:hover {
+    color: #ff7f0a
+  }
+
 
   /* Events End */
 
@@ -2697,34 +2731,35 @@ div {
   }
 
   /* student cards End*/
-}
-/* Social Handles Start */
-.sh {
-  font-family: "Jua";
-  position: relative;
-  top: 287vh;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  /* Social Handles Start */
+  .sh {
+    font-family: "Jua";
+    position: relative;
+    top: 287vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .sh-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social a:hover {
+    color: #ff7f0a;
+  }
 }
 
-.sh-heading {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #000000;
-}
-
-.social a {
-  display: inline-block;
-  margin: 5px;
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.social a:hover {
-  color: #ff7f0a;
-}
