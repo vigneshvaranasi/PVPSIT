@@ -76,13 +76,13 @@ div {
     border: 0.1vw black solid;
 }
 
-/*ARCHIVE STTART*/
+/*ARCHIVE START*/
 .Archive {
     position: absolute;
     color: #000000;
     font-family: "Jua";
     font-size: 7vw;
-    text-shadow: 2px 2px 4px #ff7f0a;
+    text-shadow:  0.13020833333333334vw  0.13020833333333334vw  0.2604166666666667vw #ff7f0a;
     width: -120vw;
     height: 43.52vh;
     top: 24vh;
