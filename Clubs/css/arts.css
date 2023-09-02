@@ -763,13 +763,11 @@ div {
 
   .eventline {
     position: absolute;
-    left: 35vh;
-    ;
+    left: 36.7vh;
     top: 117vh;
-    width: 11vw;
+    width: 9vw;
     border: 0.1vw black solid;
   }
-
 
   .reports h1 {
     font-family: "Jua";
@@ -786,10 +784,9 @@ div {
 
   .reportline {
     position: absolute;
-    right: 40vh;
-    ;
+    right: 41.5vh;
     top: 117vh;
-    width: 12vw;
+    width: 11vw;
     border: 0.1vw black solid;
   }
 
@@ -832,7 +829,6 @@ div {
   .road {
     position: absolute;
     left: 6vh;
-    ;
     top: 202vh;
     width: 90vw;
     border: 0.1vw black solid;
@@ -911,10 +907,10 @@ div {
 
   .aboutsline {
     position: absolute;
-    left: 46vh;
+    left: 47vh;
     color: black;
     top: 222vh;
-    width: 9vw;
+    width: 8.5vw;
     border: 0.1vw black solid;
   }
 
@@ -1499,9 +1495,9 @@ div {
 
   .eventline {
     position: absolute;
-    left: 37vh;
+    left: 37.5vh;
     top: 116vh;
-    width: 9vw;
+    width: 8.5vw;
     border: 0.1vw black solid;
   }
 
@@ -1645,10 +1641,10 @@ div {
 
   .aboutsline {
     position: absolute;
-    left: 46vh;
+    left: 47.5vh;
     color: black;
     top: 220vh;
-    width: 9vw;
+    width: 8vw;
     border: 0.1vw black solid;
   }
 
