@@ -128,8 +128,8 @@ div {
     -webkit-text-stroke: 0.2vw #fb6816;
     color: transparent;
     font-family: "Oswald-Bold", Helvetica;
-    font-size: 15.1vw;
-    left: 28vw;
+    font-size: 11vw;
+    left: 6vw;
     letter-spacing: 0.065vw;
     line-height: 19.8vw;
     position: fixed;
@@ -142,9 +142,9 @@ div {
   font-size: 1.7vw;
   justify-content: space-between;
   position: absolute;
-  width: 20vw;
+  width: 30vw;
   top: 50vh;
-  right:22vw;
+  right:13vw;
 }
 .reports a{
     color: #000;
