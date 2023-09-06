@@ -93,52 +93,37 @@ div {
         border-radius: 3vh;
         position: absolute;
         box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-        top: 20vh;
-        height: 36vw;
-        right: 32vw;
-        width: 50vw;
+        top: 22vh;
+        height: 60vw;
+        right: 20vw;
+        width: 60vw;
         overflow: hidden;
     }
 
     /* archive card end */
     /* 2022-23 start */
-    .number {
-        position: absolute;
-        color: #000000;
-        font-family: "Oswald";
-        font-size: 7vw;
-        width: -120vw;
-        font-weight: 600;
-        font-size: 6vw;
-        height: 43.52vh;
-        top: 20vh;
-        left: 3vw;
-        margin-right: 15vw;
-    }
-
-
     .number span {
         -webkit-text-stroke: 0.2vw #fb6816;
         color: transparent;
         font-family: "Oswald-Bold", Helvetica;
-        font-size: 6vw;
-        right: 30vw;
+        font-size: 8vw;
+        right: 6vw;
         letter-spacing: 0.065vw;
         line-height: 19.8vw;
         position: absolute;
-        top: 12.5vh;
+        top: 14vh;
         white-space: nowrap;
     }
 
     .reports ul {
         font-family: "Jua";
         display: block;
-        font-size: 3vw;
+        font-size: 4vw;
         justify-content: space-between;
         position: absolute;
-        width: 30vw;
-        top:20vh;
-        left: 12.7vw;
+        width: 50vw;
+        top:25vh;
+        left: 14vw;
     }
 
     .reports a {
