@@ -18,7 +18,7 @@ div {
   max-height: 100vh;
   flex-direction: row;
 }
-@media screen and (max-width: 426px) and (min-width: 300px) {
+@media screen and (max-width: 500px) and (min-width: 300px) {
 
   .explore,
   .rabbit,
@@ -58,7 +58,7 @@ div {
     font-size: 25vw;
     text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
     margin-right: 20px;
-    top: -3vh;
+    top: 5vh;
     left: 18vw;
   }
 
@@ -361,7 +361,6 @@ div {
 /* Cards End*/
 }
 
-
 @media screen and (max-width: 1366px) and (min-width: 1080px) 
 {
 
@@ -568,7 +567,6 @@ div {
 
 }
 
-
 @media screen and (max-width: 1441px) and (min-width: 1367px) 
 {
 
@@ -774,7 +772,6 @@ div {
   /* Explore Button End */
 
 }
-
 
 @media screen and (max-width: 1925px) and (min-width: 1442px) 
 {
