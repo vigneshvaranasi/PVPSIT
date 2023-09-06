@@ -18,6 +18,9 @@ div {
   max-height: 100vh;
   flex-direction: row;
 }
+
+
+
 @media screen and (max-width: 500px) and (min-width: 300px) {
 
   .explore,
