@@ -125,7 +125,7 @@ div {
         right: 30vw;
         letter-spacing: 0.065vw;
         line-height: 19.8vw;
-        position: fixed;
+        position: absolute;
         top: 12.5vh;
         white-space: nowrap;
     }
