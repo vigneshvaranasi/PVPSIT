@@ -103,3 +103,12 @@ document.querySelector(".next").addEventListener("click", function () {
 
 var slideshowTimer;
 carousel();
+
+
+
+/* Menu in Phone View Start */
+function toggleMenu() {
+  var sideMenu = document.querySelector('.side-menu');
+  sideMenu.classList.toggle('menu-open');
+}
+/* Menu in Phone View end */
