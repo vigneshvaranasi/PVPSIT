@@ -672,6 +672,10 @@ div {
 
 @media screen and (max-width: 1366px) and (min-width: 1080px) {
 
+
+  .side-menu,.menu-icon{
+    display: none;
+  }
   /* Back Button  Start*/
 
   .fa-arrow-left-long {
@@ -1404,27 +1408,10 @@ div {
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
 
-  /* Banner Start */
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+
+  .side-menu,.menu-icon{
+    display: none;
   }
-
-  .banner {
-    position: relative;
-  }
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
-
   /* Back Button  Start*/
 
   .fa-arrow-left-long {
@@ -2160,26 +2147,9 @@ div {
 
 @media screen and (max-width: 1921px) and (min-width: 1442px) {
 
-  /* Banner Start */
-  body,
-  div {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  .side-menu,.menu-icon{
+    display: none;
   }
-
-  .banner {
-    position: relative;
-  }
-
-  .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-  }
-
-  /* Banner End */
 
   /* Back Button  Start*/
 
