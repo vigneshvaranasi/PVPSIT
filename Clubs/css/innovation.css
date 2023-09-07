@@ -49,7 +49,7 @@ a.fa-solid.fa-arrow-left-long {
   top: -10px; /* Add a negative top value to create a gap */
   left: -250px; /* Hide the menu by default */
   width: 250px;
-  height: 100%;
+  height: 105%;
   background-color: #333;
   z-index: 9998;
   overflow-x: hidden;
@@ -577,16 +577,10 @@ a.fa-solid.fa-arrow-left-long {
     font-size: 3vw;
   }
 
-  .line1 {
+  .line1,.line2 {
     position: relative;
     border: 0.1vw black solid;
-    top: 4.5vh;
-  }
-
-  .line2 {
-    position: relative;
-    border: 0.1vw black solid;
-    top: 4.5vh;
+    top: 5.5vh;
   }
 
 
@@ -596,7 +590,7 @@ a.fa-solid.fa-arrow-left-long {
   .student-card .student4 a {
     display: inline-block;
     position: relative;
-    top: 4.5vh;
+    top: 5.5vh;
     margin: 3px;
     font-size: 2.9vw;
     color: #000;
@@ -616,7 +610,7 @@ a.fa-solid.fa-arrow-left-long {
   .student-card2 .student8 a {
     display: inline-block;
     position: relative;
-    top: 4.5vh;
+    top: 5.5vh;
     margin: 3px;
     font-size: 2.9vw;
     color: #000;
