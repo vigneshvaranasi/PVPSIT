@@ -216,12 +216,12 @@ div {
     .events ul {
       font-family: "Jua";
       display: block;
-      font-size: 3.3vw;
+      font-size: 3.1vw;
       justify-content: space-between;
       position: absolute;
-      width: 11vw;
+      width: 40vw;
       top: 33vh;
-      right: 37vw;
+      right: 9vw;
       color: #000;
       text-decoration: none;
     }
@@ -276,7 +276,7 @@ div {
   
       font-family: "Jua";
       display: block;
-      font-size: 3.3vw;
+      font-size: 3.1vw;
       justify-content: space-between;
       position: absolute;
       width: -120vw;
@@ -922,12 +922,12 @@ div {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
   }
 
   .events ul {
-    left: 26vh;
+    left: 27vh;
   }
   .events a {
     color: #000;
@@ -939,7 +939,7 @@ div {
   }
 
   .reports ul {
-    right: 43vh;
+    right: 26vh;
   }
 
   .reports a {
@@ -1654,16 +1654,16 @@ div {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
   }
 
   .events ul {
-    left: 28vh;
+    left: 27vh;
   }
 
   .reports ul {
-    right: 43vh;
+    right: 26vh;
   }
     
   .events a {
@@ -2401,16 +2401,16 @@ div {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
   }
 
   .events ul {
-    left: 28vh;
+    left: 27vh;
   }
 
   .reports ul {
-    right: 43vh;
+    right: 26vh;
   }
 
   /* Events End */
