@@ -19,19 +19,120 @@ div {
 
 /* Banner End */
 
-@media screen and (max-width: 426px) and (min-width: 300px) {
+@media screen and (max-width: 500px) and (min-width: 300px) {
+
+
+
+  .about,
+  .archive,
+  .Gallery {
+    display: none;
+  }
 
   /* Back Button  Start*/
+  a.fa-solid.fa-arrow-left-long {
+    display: none !important;
+  }
 
-  .fa-arrow-left-long {
-    color: #050505;
+  /* Add styles for the menu icon */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 9.5vh;
+    left: 20px;
+    z-index: 9999;
+    cursor: pointer;
+  }
+
+  .menu-icon i {
+    font-size: 7vw;
+  }
+
+  /* Add styles for the side menu */
+  .side-menu {
+    position: absolute;
+    top: -10px;
+    /* Add a negative top value to create a gap */
+    left: -250px;
+    /* Hide the menu by default */
+    width: 250px;
+    height: 105%;
+    background-color: #333;
+    z-index: 9998;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+
+  /* Add styles for the close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    /* Adjust the top value to position the close button */
+    right: 10px;
+    /* Adjust the right value to position the close button */
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  .close-button i {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .side-menu a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .side-menu a:hover {
+    background-color: #444;
+  }
+
+  /* Show the side menu when the menu icon is clicked */
+  .menu-open {
+    left: 0;
+  }
+
+  /* Add styles for the menu icon */
+  .menu {
+    color: #000000;
+    font-family: "Jua";
     position: absolute;
     left: 4vw;
     top: 10vh;
     font-size: 5vw;
     cursor: pointer;
-    text-decoration: none;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-icon {
+    width: 24px;
+    height: 4px;
+    z-index: 1;
+    /* Ensure the menu icon is behind the menu content */
+  }
+
+  /* Add styles for the menu content */
+  .menu-content {
+    display: none;
+    position: absolute;
+    top: 33vh;
+    left: 8vw;
+    border: 0.2vw solid #000;
+    border-radius: 3vw;
+    background-color: #fff;
+    z-index: 2;
+    /* Ensure the menu content is above the menu icon */
+  }
+
+  /* Show the menu content when the show-menu class is added */
+  .show-menu .menu-content {
+    display: block;
   }
 
   /* Back Button End */
@@ -73,15 +174,8 @@ div {
     margin-right: 15vw;
   }
 
-  .about,
-  .register,
-  .archive,
-  .Gallery {
-    display: none;
-  }
 
   /* innovation end */
-
 
   /* Big Card Images Start */
 
@@ -117,11 +211,10 @@ div {
     text-align: center;
     position: absolute;
     font-size: 5vw;
-    ;
-    top: 24vh;
+    top: 25vh;
     height: 23vw;
-    width: -120vw;
-    right: 19vw;
+    width: 11vw;
+    right: 22vw;
   }
 
   .eventline,
@@ -130,7 +223,6 @@ div {
   }
 
   .events ul {
-    right: 50vh;
     font-family: "Jua";
     display: block;
     font-size: 3.3vw;
@@ -138,6 +230,27 @@ div {
     position: absolute;
     width: 11vw;
     top: 33vh;
+    right: 37vw;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .events a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .events a:hover {
+    color: #ff7f0a
+  }
+
+  .reports a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .reports a:hover {
+    color: #ff7f0a
   }
 
   .dotted-reports {
@@ -148,7 +261,7 @@ div {
     border-radius: 5vh;
     text-align: center;
     position: absolute;
-    top: 57vh;
+    top: 54vh;
     height: 35vw;
     width: 40vw;
     left: 4.5vw;
@@ -163,29 +276,24 @@ div {
     padding: 20px;
     text-align: center;
     position: absolute;
-    top: 54vh;
+    top: 51vh;
     height: 23vw;
     width: 11vw;
     left: 15vw;
   }
 
   .reports ul {
+
     font-family: "Jua";
     display: block;
     font-size: 3.3vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
-    top: 63vh;
+    width: -120vw;
+    top: 59vh;
     left: 4vw;
-  }
-
-  .events ul {
-    left: 26vh;
-  }
-
-  .reports ul {
-    right: 43vh;
+    color: #000;
+    text-decoration: none;
   }
 
   /* Events End */
@@ -198,8 +306,8 @@ div {
     border: 0vw none;
     color: transparent;
     font-family: "Jua";
-    font-size: 2.4vw;
-    font-weight: 40;
+    font-size: 3.2vw;
+    font-weight: 400;
     left: 4vw;
     letter-spacing: 0;
     line-height: normal;
@@ -236,10 +344,9 @@ div {
     text-align: center;
     justify-content: space-between;
     font-size: 2.4vw;
-    ;
     padding: 20px;
     position: absolute;
-    top: 88.4vh;
+    top: 89.3vh;
     height: 30vw;
     width: 29vw;
     left: 28vw;
@@ -331,12 +438,12 @@ div {
   }
 
   .fac1 {
-    top: 6.5vh;
+    top: 10vw;
     left: 59vw;
   }
 
   .fac2 {
-    top: 30vh;
+    top: 52vw;
     left: 59vw;
   }
 
@@ -477,20 +584,15 @@ div {
   .stun7,
   .stun8 {
     position: relative;
-    top: 5.5vh;
-    font-size: 4vw;
+    top: 6vh;
+    font-size: 3vw;
   }
 
-  .line1 {
-    position: relative;
-    border: 0.1vw black solid;
-    top: 5vh;
-  }
-
+  .line1,
   .line2 {
     position: relative;
     border: 0.1vw black solid;
-    top: 5vh;
+    top: 5.5vh;
   }
 
 
@@ -500,7 +602,7 @@ div {
   .student-card .student4 a {
     display: inline-block;
     position: relative;
-    top: 5vh;
+    top: 5.5vh;
     margin: 3px;
     font-size: 2.9vw;
     color: #000;
@@ -520,7 +622,7 @@ div {
   .student-card2 .student8 a {
     display: inline-block;
     position: relative;
-    top: 5vh;
+    top: 5.5vh;
     margin: 3px;
     font-size: 2.9vw;
     color: #000;
@@ -534,6 +636,38 @@ div {
     color: #ff7f0a;
   }
 
+  /* Social Handles Start */
+  .sh {
+    font-family: "Jua";
+    position: relative;
+    top: 103vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .sh-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  .social a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social a:hover {
+    color: #ff7f0a;
+  }
+
+  /* Social Handles Start */
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1080px) {
@@ -682,7 +816,7 @@ div {
     top: 53vh;
   }
 
-/*   .register {
+  /*   .register {
     top: 60vh;
   }
  */
@@ -825,6 +959,7 @@ div {
   .reports a:hover {
     color: #ff7f0a
   }
+
   /* Events End */
 
 
@@ -1431,7 +1566,7 @@ div {
     top: 53vh;
   }
 
-/*   .register {
+  /*   .register {
     top: 60vh;
   }
  */
@@ -1565,6 +1700,7 @@ div {
   .events a:hover {
     color: #ff7f0a
   }
+
   .reports a {
     color: #000;
     text-decoration: none;
@@ -2187,6 +2323,7 @@ div {
   .about {
     top: 55vh;
   }
+
   .archive {
     top: 67vh;
   }
@@ -2259,13 +2396,16 @@ div {
     width: 88vw;
     left: -24vw;
   }
-.events a{
+
+  .events a {
     color: #000;
     text-decoration: none;
-}
-.events a:hover{
-  color:#ff7f0a
-}
+  }
+
+  .events a:hover {
+    color: #ff7f0a
+  }
+
   .eventline {
     position: absolute;
     left: 38.5vh;
@@ -2288,13 +2428,15 @@ div {
     width: 11vw;
     right: 18vw;
   }
-.reports a{
+
+  .reports a {
     color: #000;
     text-decoration: none;
-}
-.reports a:hover{
-  color:#ff7f0a
-}
+  }
+
+  .reports a:hover {
+    color: #ff7f0a
+  }
 
   .reportline {
     position: absolute;
@@ -2735,34 +2877,34 @@ div {
 
   /* student cards End*/
   /* Social Handles Start */
-.sh {
-  font-family: "Jua";
-  position: relative;
-  top: 287vh;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
+  .sh {
+    font-family: "Jua";
+    position: relative;
+    top: 287vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-.sh-heading {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #000000;
-}
+  .sh-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
 
-.social a {
-  display: inline-block;
-  margin: 5px;
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+  .social a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
 
-.social a:hover {
-  color: #ff7f0a;
-}
+  .social a:hover {
+    color: #ff7f0a;
+  }
 
 }
