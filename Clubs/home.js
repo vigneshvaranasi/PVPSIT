@@ -34,6 +34,32 @@ function smoothScroll(target) {
 
 /* Explore Now JS End */
 
+/* Menu in Phone View Start */
+function toggleMenu() {
+  var sideMenu = document.querySelector('.side-menu');
+  sideMenu.classList.toggle('menu-open');
+}
+/* Menu in Phone View end */
+
+/* About Code Start */
+
+function smoothScroll(target) {
+  var targetElement = document.querySelector(target);
+  if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
+  }
+}
+
+document.querySelector('.about').addEventListener('click', function (event) {
+  event.preventDefault();
+  smoothScroll(this.getAttribute('href'));
+});
+
+/* About Code End */
+
 
 
 /* Innovatoion Cards automatic Start */
@@ -104,11 +130,3 @@ document.querySelector(".next").addEventListener("click", function () {
 var slideshowTimer;
 carousel();
 
-
-
-/* Menu in Phone View Start */
-function toggleMenu() {
-  var sideMenu = document.querySelector('.side-menu');
-  sideMenu.classList.toggle('menu-open');
-}
-/* Menu in Phone View end */
