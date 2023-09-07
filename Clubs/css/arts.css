@@ -366,297 +366,305 @@ div {
     }
   
     /* About end */
-  
-    /*faculty cards Start*/
-  
-    .fc {
-      font-family: "Jua";
-      position: relative;
-      top: 114vh;
-      font-size: 5vw;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .container {
-      font-family: "Jua";
-      position: relative;
-      top: 110vh;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .cordinator-card {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10vw;
-  
-    }
-  
-    .faculty1,
-    .faculty2 {
-      background-color: #ffffff;
-      box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      border: 0.15vw solid #000;
-      border-radius: 3vh;
-      text-align: center;
-      height: 20vw;
-      width: 48vw;
-      box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-  
-    }
-  
-    .fac1,
-    .fac2 {
-      background-color: #ffffff;
-      border: 0.15vw solid #000;
-      border-radius: 10%;
-      position: absolute;
-      display: block;
-      text-align: center;
-      height: 18vw;
-      width: 16vw;
-    }
-  
-    .fac1 {
-      top: 10vw;
-      left: 59vw;
-    }
-  
-    .fac2 {
-      top: 52vw;
-      left: 59vw;
-    }
-  
-    .facn1,
-    .facn2 {
-      position: relative;
-      left: -8.9vw;
-      top: -2vh;
-      font-size: 4vw;
-    }
-  
-    .fline1,
-    .fline2 {
-      position: relative;
-      border: 0.1vw black solid;
-      left: 2vw;
-      width: 26vw;
-      top: -2vh;
-    }
-  
-    .faculty1 a,
-    .faculty2 a {
-      display: inline-block;
-      position: relative;
-      left: -9vw;
-      top: -2vh;
-      margin: 5px;
-      font-size: 3.5vw;
-      color: #000;
-      text-decoration: none;
-    }
-  
-    .faculty1 a:hover,
-    .faculty2 a:hover {
-      color: #ff7f0a;
-    }
-  
-    /*faculty cards end */
-  
-  
-    /* student cards Start*/
-  
-    .sc {
-      font-family: "Jua";
-      position: relative;
-      top: 107vh;
-      box-sizing: border-box;
-      font-size: 5vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .boxes1,
-    .boxes2 {
-      font-family: "Jua";
-      position: relative;
-      top: 110vh;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-  
-    .student-card {
-      display: flex;
-      justify-content: space-between;
-      padding: 2px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-    }
-  
-    .student1,
-    .student3,
-    .student5,
-    .student7 {
-      background-color: #ffffff;
-      box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      border: 0.15vw solid #000;
-      border-radius: 3vh;
-      text-align: center;
-      position: relative;
-      box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-      height: 30vw;
-      width: 25vw;
-      left: -23vw;
-    }
-  
-    .student2,
-    .student4,
-    .student6,
-    .student8 {
-      background-color: #ffffff;
-      box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      border: 0.15vw solid #000;
-      border-radius: 3vh;
-      text-align: center;
-      position: relative;
-      box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-      top: -2vh;
-      height: 30vw;
-      width: 25vw;
-      left: 23vw;
-    }
-  
-    .simg1,
-    .simg2,
-    .simg3,
-    .simg4,
-    .simg5,
-    .simg6,
-    .simg7,
-    .simg8 {
-      background-color: #ffffff;
-      border: 0.15vw solid #000;
-      border-radius: 50%;
-      position: absolute;
-      display: flex;
-      text-align: center;
-      padding: 0px;
-      height: 15vw;
-      width: 15vw;
-      top: 3vw;
-      left: 9.3vw;
-    }
-  
-    .stun1,
-    .stun2,
-    .stun3,
-    .stun4,
-    .stun5,
-    .stun6,
-    .stun7,
-    .stun8 {
-      position: relative;
-      top: 6vh;
-      font-size: 3vw;
-    }
-  
-    .line1,.line2 {
-      position: relative;
-      border: 0.1vw black solid;
-      top: 5.5vh;
-    }
-  
-  
-    .student-card .student1 a,
-    .student-card .student2 a,
-    .student-card .student3 a,
-    .student-card .student4 a {
-      display: inline-block;
-      position: relative;
-      top: 5.5vh;
-      margin: 3px;
-      font-size: 2.9vw;
-      color: #000;
-      text-decoration: none;
-    }
-  
-    .student-card .student1 a:hover,
-    .student-card .student2 a:hover,
-    .student-card .student3 a:hover,
-    .student-card .student4 a:hover {
-      color: #ff7f0a;
-    }
-  
-    .student-card2 .student5 a,
-    .student-card2 .student6 a,
-    .student-card2 .student7 a,
-    .student-card2 .student8 a {
-      display: inline-block;
-      position: relative;
-      top: 5.5vh;
-      margin: 3px;
-      font-size: 2.9vw;
-      color: #000;
-      text-decoration: none;
-    }
-  
-    .student-card2 .student5 a:hover,
-    .student-card2 .student6 a:hover,
-    .student-card2 .student7 a:hover,
-    .student-card2 .student8 a:hover {
-      color: #ff7f0a;
-    }
-  
-    /* Social Handles Start */
-    .sh {
-      font-family: "Jua";
-      position: relative;
-      top: 103vh;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-  
-    .sh-heading {
-      font-size: 20px;
-      margin-bottom: 10px;
-      color: #000000;
-    }
-  
-    .social a {
-      display: inline-block;
-      margin: 5px;
-      font-size: 20px;
-      color: #333;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-  
-    .social a:hover {
-      color: #ff7f0a;
-    }
-  
-    /* Social Handles Start */
+
+  /*faculty cards Start*/
+
+  .fc {
+    font-family: "Jua";
+    position: relative;
+    top: 114vh;
+    font-size: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    font-family: "Jua";
+    position: relative;
+    top: 110vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cordinator-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+
+  }
+
+  .faculty1,
+  .faculty2,
+  .faculty3 {
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 0.15vw solid #000;
+    border-radius: 3vh;
+    text-align: center;
+    height: 20vw;
+    width: 48vw;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+
+  }
+
+  .fac1,
+  .fac2,
+  .fac3 {
+    background-color: #ffffff;
+    border: 0.15vw solid #000;
+    border-radius: 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 18vw;
+    width: 16vw;
+    left: 59vw;
+  }
+
+  .fac1 {
+    top: 10%;
+  }
+  .fac2 {
+    top: 42%;
+  }
+  .fac3 {
+    top: 75%;
+  }
+
+
+  .facn1,
+  .facn2,
+  .facn3 {
+    position: relative;
+    left: -8.9vw;
+    top: -2vh;
+    font-size: 4vw;
+  }
+
+  .fline1,
+  .fline2 {
+    position: relative;
+    border: 0.1vw black solid;
+    left: 2vw;
+    width: 26vw;
+    top: -2vh;
+  }
+
+  .faculty1 a,
+  .faculty2 a,
+  .faculty3 a {
+    display: inline-block;
+    position: relative;
+    left: -9vw;
+    top: -2vh;
+    margin: 5px;
+    font-size: 3.5vw;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .faculty1 a:hover,
+  .faculty2 a:hover, 
+  .faculty3 a:hover {
+    color: #ff7f0a;
+  }
+
+  /*faculty cards end */
+
+
+  /* student cards Start*/
+
+  .sc {
+    font-family: "Jua";
+    position: relative;
+    top: 110vh;
+    box-sizing: border-box;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxes1,
+  .boxes2 {
+    font-family: "Jua";
+    position: relative;
+    top: 110vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .student-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .student1,
+  .student3,
+  .student5,
+  .student7 {
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 0.15vw solid #000;
+    border-radius: 3vh;
+    text-align: center;
+    position: relative;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    height: 30vw;
+    width: 25vw;
+    left: -23vw;
+  }
+
+  .student2,
+  .student4,
+  .student6,
+  .student8 {
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 0.15vw solid #000;
+    border-radius: 3vh;
+    text-align: center;
+    position: relative;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    top: -2vh;
+    height: 30vw;
+    width: 25vw;
+    left: 23vw;
+  }
+
+  .simg1,
+  .simg2,
+  .simg3,
+  .simg4,
+  .simg5,
+  .simg6,
+  .simg7,
+  .simg8 {
+    background-color: #ffffff;
+    border: 0.15vw solid #000;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    height: 15vw;
+    width: 15vw;
+    top: 3vw;
+    left: 9.3vw;
+  }
+
+  .stun1,
+  .stun2,
+  .stun3,
+  .stun4,
+  .stun5,
+  .stun6,
+  .stun7,
+  .stun8 {
+    position: relative;
+    top: 6vh;
+    font-size: 3vw;
+  }
+
+  .line1,.line2 {
+    position: relative;
+    border: 0.1vw black solid;
+    top: 5.5vh;
+  }
+
+
+  .student-card .student1 a,
+  .student-card .student2 a,
+  .student-card .student3 a,
+  .student-card .student4 a {
+    display: inline-block;
+    position: relative;
+    top: 5.5vh;
+    margin: 3px;
+    font-size: 2.9vw;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .student-card .student1 a:hover,
+  .student-card .student2 a:hover,
+  .student-card .student3 a:hover,
+  .student-card .student4 a:hover {
+    color: #ff7f0a;
+  }
+
+  .student-card2 .student5 a,
+  .student-card2 .student6 a,
+  .student-card2 .student7 a,
+  .student-card2 .student8 a {
+    display: inline-block;
+    position: relative;
+    top: 5.5vh;
+    margin: 3px;
+    font-size: 2.9vw;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .student-card2 .student5 a:hover,
+  .student-card2 .student6 a:hover,
+  .student-card2 .student7 a:hover,
+  .student-card2 .student8 a:hover {
+    color: #ff7f0a;
+  }
+
+  /* Social Handles Start */
+  .sh {
+    font-family: "Jua";
+    position: relative;
+    top: 103vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .sh-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  .social a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social a:hover {
+    color: #ff7f0a;
+  }
+
+  /* Social Handles Start */
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1080px) {
@@ -1082,124 +1090,140 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 25vw;
-    height: 28vw;
-    right: 36.5vw;
-    top: 318vh;
+    width: 50vw;
+    height: 50vw;
+    left: 6vw;
+    top: 310vh;
   }
 
   /* shakinghands image end */
+
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 288vh;
+    top: 278vh;
+    font-size: 3vw;
+    left:-17vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .container {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 260vh;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   }
 
   .cordinator-card {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    gap: 32vw;
-
+    gap: 1vw;
   }
 
   .faculty1,
-  .faculty2 {
+  .faculty2,
+  .faculty3 {
     background-color: #ffffff;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     padding: 20px;
-    flex-direction: row;
     border: 0.15vw solid #000;
     border-radius: 3vh;
     text-align: center;
-    height: 15vw;
-    width: 28vw;
+    height: 13vw;
+    width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    right:2vw;
 
   }
 
   .fac1,
-  .fac2 {
+  .fac2,
+  .fac3 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
     border-radius: 10%;
     position: absolute;
     display: flex;
+    flex-direction: row;
     text-align: center;
-    padding: 0px;
     height: 12vw;
     width: 10vw;
-    top: 4.5vw;
+    right:5vw;
   }
 
   .fac1 {
-    left: 21.6%;
+    top: 8%;
+  }
+  .fac2 {
+    top: 39%;
+  }
+  .fac3 {
+    top: 70%;
   }
 
-  .fac2 {
-    right: 4.7%;
-  }
 
   .facn1,
-  .facn2 {
+  .facn2,
+  .facn3 {
     position: relative;
-    left: -7vw;
-    top: 5vh;
-    font-size: 1.6vw;
+    right: 6vw;
+    top: 2vh;
+    font-size: 2vw;
   }
 
-  .fline1,
+  .fline1{
+    position: relative;
+    border: 0.1vw black solid;
+    left: 3vw;
+    width: 13vw;
+    top: 3vh;
+  }
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
-    width: 10vw;
-    top: 7vh;
+    width: 13vw;
+    top: 6vh;
   }
-
+  
   .faculty1 a,
-  .faculty2 a {
+  .faculty2 a,
+  .faculty3 a {
     display: inline-block;
     position: relative;
-    left: -6vw;
-    top: 7vh;
+    right: 5vw;
+    top: 5vh;
     margin: 5px;
-    font-size: 20px;
+    font-size: 1.7vw;
     color: #000;
     text-decoration: none;
+
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover {
+  .faculty2 a:hover, 
+  .faculty3 a:hover {
     color: #ff7f0a;
   }
-
   /*faculty cards end */
-
 
   /* student cards Start*/
 
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 290vh;
+    top: 253vh;
+    font-size: 2.5vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1210,7 +1234,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 293vh;
+    top: 250vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1356,12 +1380,11 @@ div {
     color: #ff7f0a;
   }
 
-
   /* Social Handles Start */
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 240vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -2546,115 +2569,131 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 27vw;
-    height: 29vw;
-    right: 36.5vw;
-    top: 314vh;
+    width: 50vw;
+    height: 50vw;
+    left: 6vw;
+    top: 310vh;
   }
 
   /* shakinghands image end */
+
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 286vh;
+    top: 278vh;
+    font-size: 2.5vw;
+    left:-17vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .container {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 260vh;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   }
 
   .cordinator-card {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    gap: 32vw;
-
+    gap: 1vw;
   }
 
   .faculty1,
-  .faculty2 {
+  .faculty2,
+  .faculty3 {
     background-color: #ffffff;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     padding: 20px;
-    flex-direction: row;
     border: 0.15vw solid #000;
     border-radius: 3vh;
     text-align: center;
-    height: 15vw;
-    width: 28vw;
+    height: 13vw;
+    width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    right:2vw;
 
   }
 
   .fac1,
-  .fac2 {
+  .fac2,
+  .fac3 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
     border-radius: 10%;
     position: absolute;
     display: flex;
+    flex-direction: row;
     text-align: center;
-    padding: 0px;
     height: 12vw;
     width: 10vw;
-    top: 4.5vw;
+    right:5vw;
   }
 
   .fac1 {
-    left: 21vw;
+    top: 8%;
+  }
+  .fac2 {
+    top: 39%;
+  }
+  .fac3 {
+    top: 70%;
   }
 
-  .fac2 {
-    right: 5vw;
-  }
 
   .facn1,
-  .facn2 {
+  .facn2,
+  .facn3 {
     position: relative;
-    left: -7vw;
-    top: 5vh;
-    font-size: 1.6vw;
+    right: 6vw;
+    top: 2vh;
+    font-size: 2vw;
   }
 
-  .fline1,
+  .fline1{
+    position: relative;
+    border: 0.1vw black solid;
+    left: 3vw;
+    width: 13vw;
+    top: 3vh;
+  }
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
-    width: 10vw;
-    top: 7vh;
+    width: 13vw;
+    top: 6vh;
   }
-
+  
   .faculty1 a,
-  .faculty2 a {
+  .faculty2 a,
+  .faculty3 a {
     display: inline-block;
     position: relative;
-    left: -6vw;
-    top: 7vh;
+    right: 5vw;
+    top: 5vh;
     margin: 5px;
-    font-size: 20px;
+    font-size: 1.7vw;
     color: #000;
     text-decoration: none;
+
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover {
+  .faculty2 a:hover, 
+  .faculty3 a:hover {
     color: #ff7f0a;
   }
-
   /*faculty cards end */
 
 
@@ -2663,7 +2702,8 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 290vh;
+    top: 260vh;
+    font-size: 2.5vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2674,7 +2714,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 293vh;
+    top: 260vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2822,24 +2862,25 @@ div {
   }
 
   /* student cards End*/
+
   /* Social Handles Start */
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 250vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
   }
-  
+
   .sh-heading {
     font-size: 24px;
     margin-bottom: 10px;
     color: #000000;
   }
-  
+
   .social a {
     display: inline-block;
     margin: 5px;
@@ -2848,9 +2889,17 @@ div {
     text-decoration: none;
     transition: color 0.3s ease;
   }
-  
+
   .social a:hover {
     color: #ff7f0a;
   }
+
+  /* Social Handles end */
 }
 
+
+
+.boxes1 span,
+.boxes2 span{
+  color:#ff7f0a;
+}
