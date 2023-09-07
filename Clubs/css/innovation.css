@@ -215,12 +215,12 @@ a.fa-solid.fa-arrow-left-long {
   .events ul {
     font-family: "Jua";
     display: block;
-    font-size: 3.3vw;
+    font-size: 3.1vw;
     justify-content: space-between;
     position: absolute;
-    width: 35vw;
-    top: 29vh;
-    right: 11vw;
+    width: 40vw;
+    top: 33vh;
+    right: 9vw;
     color: #000;
     text-decoration: none;
   }
@@ -275,12 +275,12 @@ a.fa-solid.fa-arrow-left-long {
 
     font-family: "Jua";
     display: block;
-    font-size: 3.3vw;
+    font-size: 3.1vw;
     justify-content: space-between;
     position: absolute;
     width: -120vw;
     top: 59vh;
-    left: 4vw;
+    left: 2vw;
     color: #000;
     text-decoration: none;
   }
@@ -1689,7 +1689,7 @@ a.fa-solid.fa-arrow-left-long {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
     text-decoration: none;
     color: #000;
@@ -1709,7 +1709,7 @@ a.fa-solid.fa-arrow-left-long {
   }
 
   .reports ul {
-    right: 43vh;
+    right: 27vh;
   }
 
   .reports a {
@@ -2422,16 +2422,16 @@ a.fa-solid.fa-arrow-left-long {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
   }
 
   .events ul {
-    left: 28vh;
+    left: 26vh;
   }
 
   .reports ul {
-    right: 43vh;
+    right: 27vh;
   }
 
   .events a {
@@ -3176,16 +3176,16 @@ a.fa-solid.fa-arrow-left-long {
     font-size: 1.5vw;
     justify-content: space-between;
     position: absolute;
-    width: 11vw;
+    width: 20vw;
     top: 117vh;
   }
 
   .events ul {
-    left: 28vh;
+    left: 26vh;
   }
 
   .reports ul {
-    right: 43vh;
+    right: 27vh;
   }
 
   /* Events End */
