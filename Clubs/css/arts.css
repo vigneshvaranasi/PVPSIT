@@ -353,7 +353,7 @@ div {
       display: block;
       border: none;
       justify-content: space-between;
-      font-size: 1.9vw;
+      font-size: 1.8vw;
       padding: 20px;
       position: absolute;
       top: 93vh;
@@ -1072,10 +1072,11 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 34vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
     max-width: 100%;
+    font-size: 1.2vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1822,10 +1823,11 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 34vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
     max-width: 100%;
+    font-size: 1.2vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -2551,10 +2553,11 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 34vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
     max-width: 100%;
+    font-size: 1.2vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
