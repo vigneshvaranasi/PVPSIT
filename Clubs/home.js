@@ -1,7 +1,7 @@
 
 /* Explore Now JS Start */
 
-function smoothScroll(target) {
+function smoothScrolls(target) {
     const targetElement = document.querySelector(target);
     if (targetElement) 
     {
