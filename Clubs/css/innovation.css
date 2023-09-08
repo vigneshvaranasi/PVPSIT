@@ -356,10 +356,11 @@ a.fa-solid.fa-arrow-left-long {
     padding: 20px;
     position: absolute;
     top: 93vh;
-    height: 35vw;
+    height: 38vw;
     width: 73vw;
     left: 10vw;
     max-width: 100%;
+    font-size: 2.2vw;;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1845,9 +1846,10 @@ a.fa-solid.fa-arrow-left-long {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
+    font-size: 1.4vw;
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2591,10 +2593,11 @@ a.fa-solid.fa-arrow-left-long {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
     max-width: 100%;
+    font-size: 1.4vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -3345,10 +3348,11 @@ a.fa-solid.fa-arrow-left-long {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
-    left: 10vw;
+    left: 11vw;
     max-width: 100%;
+    font-size: 1.4vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
