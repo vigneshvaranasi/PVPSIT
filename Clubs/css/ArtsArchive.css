@@ -26,12 +26,24 @@ div {
     color: #050505;
     position: absolute;
     left: 4vw;
-    top: 7vh;
+    top: 12vh;
     font-size: 5vw;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
   }
+  .fa-house {
+    color: #050505;
+    position: absolute;
+    left: 4vw;
+    top: 7vh;
+    font-size: 4vw;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
   /* Back Button End */
 
@@ -145,7 +157,7 @@ div {
         background-color: #000000;
         position: absolute;
         left: 0.5vw;
-        top: 26.5vh;
+        top: 35.5vh;
         padding: 1.11vh 1.39vw;
         border: none;
         border-radius: 1vw;
@@ -158,6 +170,26 @@ div {
     }
 
     .fa-arrow-left-long:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+    .fa-house {
+        color: #ffffff;
+        background-color: #000000;
+        position: absolute;
+        left: 0.5vw;
+        top: 26.5vh;
+        padding: 1.11vh 1.39vw;
+        border: none;
+        border-radius: 1vw;
+        font-size: 1.8vw;
+        cursor: pointer;
+        text-decoration: none;
+        width: 2vw;
+        height: 1.6vw;
+        text-align: center;
+    }
+
+    .fa-house:hover {
         box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
     }
 
@@ -277,4 +309,3 @@ div {
         color: #ff7f0a
     }
 }
-
