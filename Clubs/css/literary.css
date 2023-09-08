@@ -367,10 +367,11 @@ div {
     padding: 20px;
     position: absolute;
     top: 93vh;
-    height: 35vw;
+    height: 38vw;
     width: 73vw;
     left: 10vw;
     max-width: 100%;
+    font-size: 2vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1086,10 +1087,11 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
     left: 10vw;
     max-width: 100%;
+    font-size: 1.3vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1835,7 +1837,7 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
     left: 10vw;
     max-width: 100%;
@@ -2571,7 +2573,7 @@ div {
     padding: 20px;
     position: absolute;
     top: 218vh;
-    height: 30vw;
+    height: 33vw;
     width: 29vw;
     left: 10vw;
     max-width: 100%;
