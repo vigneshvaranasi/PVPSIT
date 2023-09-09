@@ -32,6 +32,9 @@ div {
   a.fa-solid.fa-arrow-left-long {
       display: none !important;
   }
+  a.fa-house {
+    display: none;
+  }
   /* Add styles for the menu icon */
   .menu-icon {
     display: block;
