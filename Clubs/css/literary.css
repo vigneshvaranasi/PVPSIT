@@ -29,6 +29,9 @@ div {
     display: none;
   }
 
+  a.fa-house {
+    display: none;
+  }
   /* Back Button  Start*/
   a.fa-solid.fa-arrow-left-long {
     display: none !important;
