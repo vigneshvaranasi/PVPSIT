@@ -705,6 +705,26 @@ div {
   .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
+  .fa-house {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 26.5vh;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+  }
+
+  .fa-house:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
 
   /* Back Button End */
 
@@ -1458,6 +1478,26 @@ div {
   .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
+  .fa-house {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 26.5vh;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+  }
+
+  .fa-house:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
 
   /* Back Button End */
 
@@ -2194,6 +2234,26 @@ div {
   }
 
   .fa-arrow-left-long:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+  .fa-house {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 26.5vh;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+  }
+
+  .fa-house:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
