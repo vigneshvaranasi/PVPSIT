@@ -59,74 +59,54 @@ document.querySelector('.about').addEventListener('click', function (event) {
 });
 
 /* About Code End */
+// Create a list of slides
+const slides = document.querySelectorAll(".slide");
 
+// Set the current slide index
+let currentSlideIndex = 0;
 
+// Add event listeners to the buttons
+document.querySelector(".prev").addEventListener("click", function() {
+  showSlide(currentSlideIndex - 1);
+});
 
-/* Innovatoion Cards automatic Start */
+document.querySelector(".next").addEventListener("click", function() {
+  showSlide(currentSlideIndex + 1);
+});
 
-  var myIndex = 0;
-  carousel();
-
-  function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slide");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+function showSlide(index) {
+  // Check if the index is within bounds
+  if (index < 0) {
+    currentSlideIndex = slides.length - 1;
+  } else if (index >= slides.length) {
+    currentSlideIndex = 0;
+  } else {
+    currentSlideIndex = index;
   }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 6000); 
+
+  // Show or hide the arrows based on the current slide index
+  const prevButton = document.querySelector(".prev");
+  const nextButton = document.querySelector(".next");
+  if (currentSlideIndex === 0) {
+    prevButton.style.display = "none";
+  } else {
+    prevButton.style.display = "block";
+  }
+  if (currentSlideIndex === slides.length - 1) {
+    nextButton.style.display = "none";
+  } else {
+    nextButton.style.display = "block";
+  }
+
+  // Scroll to the slide
+  slides[currentSlideIndex].scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    inline: "start"
+  });
 }
 
-/* Innovatoion Cards automatic Start */
-
-
-/* Innovation Cards Arrows */
-
-var slideIndex = 1;
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-    var slides = document.getElementsByClassName("slide");
-    
-    if (n > slides.length) {
-        slideIndex = 1;
-    } else if (n < 1) {
-        slideIndex = slides.length;
-    }
-    
-    for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    
-    slides[slideIndex - 1].style.display = "block";
-}
-
-
-function pauseSlideshow() {
-    clearTimeout(slideshowTimer);
-}
-
-
-function resumeSlideshow() {
-    slideshowTimer = setTimeout(carousel, 2000);
-}
-
-document.querySelector(".prev").addEventListener("click", function () {
-    plusSlides(-1);
-    pauseSlideshow();
-});
-
-document.querySelector(".next").addEventListener("click", function () {
-    plusSlides(1);
-    pauseSlideshow();
-});
-
-
-var slideshowTimer;
-carousel();
-
+// Start the carousel
+setInterval(function() {
+  showSlide(currentSlideIndex + 1);
+}, 5000);
