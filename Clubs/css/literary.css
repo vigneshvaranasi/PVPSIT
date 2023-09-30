@@ -773,8 +773,8 @@ div {
 
 
   /* Big Card Images Start */
+
   .card {
-    position: relative;
     display: block;
     justify-content: space-between;
     background-color: #ffffff;
@@ -788,29 +788,22 @@ div {
     width: 45vw;
     overflow: hidden;
   }
-  
-  .slideshow-container {
-    width: 100%; /* Adjust this to your desired width */
-    height: 100%; /* Adjust this to your desired height */
-    overflow: hidden;
-    position: relative;
-  }
-  
-  /* Style the slideshow and slides */
+
   .slideshow {
     display: flex;
-    width: 600%; /* Total width of all slides */
+    width: 100%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    /*   transition: transform 5s ease-in-out; */
   }
-  
+
   .slide {
-    width: 45vw; /* Adjust this to your desired slide width */
-    height: 25vw; /* Adjust this to your desired slide height */
+    width: 45vw;
+    height: 25vw;
     object-fit: cover;
+    display: flex;
   }
-  
-  /* Style the previous and next buttons */
+
+
   .prev,
   .next {
     position: absolute;
@@ -820,15 +813,14 @@ div {
     font-size: 2em;
     z-index: 1;
   }
-  
+
   .prev {
     left: 10px;
   }
-  
+
   .next {
     right: 10px;
   }
-  
 
   /* Big Card Images End */
 
@@ -1556,7 +1548,6 @@ div {
   /* Big Card Images Start */
 
   .card {
-    position: relative;
     display: block;
     justify-content: space-between;
     background-color: #ffffff;
@@ -1570,29 +1561,22 @@ div {
     width: 45vw;
     overflow: hidden;
   }
-  
-  .slideshow-container {
-    width: 100%; /* Adjust this to your desired width */
-    height: 100%; /* Adjust this to your desired height */
-    overflow: hidden;
-    position: relative;
-  }
-  
-  /* Style the slideshow and slides */
+
   .slideshow {
     display: flex;
-    width: 600%; /* Total width of all slides */
+    width: 100%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 5s ease-in-out;
   }
-  
+
   .slide {
-    width: 45vw; /* Adjust this to your desired slide width */
-    height: 25vw; /* Adjust this to your desired slide height */
+    width: 45vw;
+    height: 25vw;
     object-fit: cover;
+    display: flex;
   }
-  
-  /* Style the previous and next buttons */
+
+
   .prev,
   .next {
     position: absolute;
@@ -1602,14 +1586,15 @@ div {
     font-size: 2em;
     z-index: 1;
   }
-  
+
   .prev {
     left: 10px;
   }
-  
+
   .next {
     right: 10px;
   }
+
   /* Big Card Images End */
   /* Navigation Start */
 
@@ -2334,44 +2319,22 @@ div {
     width: 45vw;
     overflow: hidden;
   }
-  .card {
-    position: relative;
-    display: block;
-    justify-content: space-between;
-    background-color: #ffffff;
-    border: 0.2vw solid #000;
-    border-radius: 5vh;
-    position: absolute;
-    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    top: 42vh;
-    height: 25vw;
-    right: 21vw;
-    width: 45vw;
-    overflow: hidden;
-  }
-  
-  .slideshow-container {
-    width: 100%; /* Adjust this to your desired width */
-    height: 100%; /* Adjust this to your desired height */
-    overflow: hidden;
-    position: relative;
-  }
-  
-  /* Style the slideshow and slides */
+
   .slideshow {
     display: flex;
-    width: 600%; /* Total width of all slides */
+    width: 100%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 5s ease-in-out;
   }
-  
+
   .slide {
-    width: 45vw; /* Adjust this to your desired slide width */
-    height: 25vw; /* Adjust this to your desired slide height */
+    width: 45vw;
+    height: 26vw;
     object-fit: cover;
+    display: flex;
   }
-  
-  /* Style the previous and next buttons */
+
+
   .prev,
   .next {
     position: absolute;
@@ -2381,14 +2344,15 @@ div {
     font-size: 2em;
     z-index: 1;
   }
-  
+
   .prev {
     left: 10px;
   }
-  
+
   .next {
     right: 10px;
   }
+
   /* Big Card Images End */
 
 
