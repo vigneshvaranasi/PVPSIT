@@ -1120,8 +1120,7 @@ div {
   }
 
   /* About end */
-
-  /*faculty cards Start*/
+/*faculty cards Start*/
 
   /* shakinghands image start */
   .shakinghands {
@@ -1129,131 +1128,115 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50vw;
-    height: 50vw;
-    left: 6vw;
+    width: 24vw;
+    height: 28vw;
+    right: 37vw;
     top: 310vh;
   }
 
   /* shakinghands image end */
-
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 278vh;
-    font-size: 3vw;
-    left:-17vw;
+    top: 280vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     font-family: "Jua";
     position: relative;
-    top: 260vh;
+    top: 280vh;
     box-sizing: border-box;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
   }
 
   .cordinator-card {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 1vw;
+    gap: 32vw;
+
   }
 
   .faculty1,
-  .faculty2,
-  .faculty3 {
+  .faculty2 {
     background-color: #ffffff;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     padding: 20px;
+    flex-direction: row;
     border: 0.15vw solid #000;
     border-radius: 3vh;
     text-align: center;
-    height: 13vw;
-    width: 30vw;
+    height: 15vw;
+    width: 28vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    right:2vw;
 
   }
 
   .fac1,
-  .fac2,
-  .fac3 {
+  .fac2 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
     border-radius: 10%;
     position: absolute;
     display: flex;
-    flex-direction: row;
     text-align: center;
+    padding: 0px;
     height: 12vw;
     width: 10vw;
-    right:5vw;
+    top: 4.5vw;
   }
 
   .fac1 {
-    top: 8%;
-  }
-  .fac2 {
-    top: 39%;
-  }
-  .fac3 {
-    top: 70%;
+    left: 21.6%;
   }
 
+  .fac2 {
+    right: 4.7%;
+  }
 
   .facn1,
-  .facn2,
-  .facn3 {
+  .facn2 {
     position: relative;
-    right: 6vw;
-    top: 2vh;
-    font-size: 2vw;
+    left: -7vw;
+    top: 5vh;
+    font-size: 1.6vw;
   }
 
-  .fline1{
-    position: relative;
-    border: 0.1vw black solid;
-    left: 3vw;
-    width: 13vw;
-    top: 3vh;
-  }
+  .fline1,
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
-    width: 13vw;
-    top: 6vh;
+    width: 10vw;
+    top: 7vh;
   }
-  
+
   .faculty1 a,
-  .faculty2 a,
-  .faculty3 a {
+  .faculty2 a {
     display: inline-block;
     position: relative;
-    right: 5vw;
-    top: 5vh;
+    left: -6vw;
+    top: 7vh;
     margin: 5px;
-    font-size: 1.7vw;
+    font-size: 20px;
     color: #000;
     text-decoration: none;
-
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
-  .faculty3 a:hover {
+  .faculty2 a:hover {
     color: #ff7f0a;
   }
+
   /*faculty cards end */
 
   /* student cards Start*/
@@ -1261,7 +1244,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 253vh;
+    top: 280vh;
     font-size: 2.5vw;
     box-sizing: border-box;
     display: flex;
@@ -1273,7 +1256,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 250vh;
+    top: 280vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1423,7 +1406,7 @@ div {
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 240vh;
+    top: 272vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -1890,6 +1873,7 @@ div {
 
   /* About end */
 
+ 
   /*faculty cards Start*/
 
   /* shakinghands image start */
@@ -1901,14 +1885,14 @@ div {
     width: 25vw;
     height: 28vw;
     right: 36.5vw;
-    top: 318vh;
+    top: 306vh;
   }
 
   /* shakinghands image end */
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 277vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -1918,7 +1902,7 @@ div {
   .container {
     font-family: "Jua";
     position: relative;
-    top: 287vh;
+    top: 277vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2015,7 +1999,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 289vh;
+    top: 278vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2026,7 +2010,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 292vh;
+    top: 280vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2180,7 +2164,7 @@ div {
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 285vh;
+    top: 272vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -2646,8 +2630,7 @@ div {
   }
 
   /* About end */
-
-  /*faculty cards Start*/
+/*faculty cards Start*/
 
   /* shakinghands image start */
   .shakinghands {
@@ -2655,131 +2638,115 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50vw;
-    height: 50vw;
-    left: 6vw;
-    top: 310vh;
+    width: 27vw;
+    height: 29vw;
+    right: 36.5vw;
+    top: 299vh;
   }
 
   /* shakinghands image end */
-
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 278vh;
-    font-size: 2.5vw;
-    left:-17vw;
+    top: 277vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     font-family: "Jua";
     position: relative;
-    top: 260vh;
+    top: 278vh;
     box-sizing: border-box;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
   }
 
   .cordinator-card {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 1vw;
+    gap: 32vw;
+
   }
 
   .faculty1,
-  .faculty2,
-  .faculty3 {
+  .faculty2 {
     background-color: #ffffff;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     padding: 20px;
+    flex-direction: row;
     border: 0.15vw solid #000;
     border-radius: 3vh;
     text-align: center;
-    height: 13vw;
-    width: 30vw;
+    height: 15vw;
+    width: 28vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    right:2vw;
 
   }
 
   .fac1,
-  .fac2,
-  .fac3 {
+  .fac2 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
     border-radius: 10%;
     position: absolute;
     display: flex;
-    flex-direction: row;
     text-align: center;
+    padding: 0px;
     height: 12vw;
     width: 10vw;
-    right:5vw;
+    top: 4.5vw;
   }
 
   .fac1 {
-    top: 8%;
-  }
-  .fac2 {
-    top: 39%;
-  }
-  .fac3 {
-    top: 70%;
+    left: 21vw;
   }
 
+  .fac2 {
+    right: 5vw;
+  }
 
   .facn1,
-  .facn2,
-  .facn3 {
+  .facn2 {
     position: relative;
-    right: 6vw;
-    top: 2vh;
-    font-size: 2vw;
+    left: -7vw;
+    top: 5vh;
+    font-size: 1.6vw;
   }
 
-  .fline1{
-    position: relative;
-    border: 0.1vw black solid;
-    left: 3vw;
-    width: 13vw;
-    top: 3vh;
-  }
+  .fline1,
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
-    width: 13vw;
-    top: 6vh;
+    width: 10vw;
+    top: 7vh;
   }
-  
+
   .faculty1 a,
-  .faculty2 a,
-  .faculty3 a {
+  .faculty2 a {
     display: inline-block;
     position: relative;
-    right: 5vw;
-    top: 5vh;
+    left: -6vw;
+    top: 7vh;
     margin: 5px;
-    font-size: 1.7vw;
+    font-size: 20px;
     color: #000;
     text-decoration: none;
-
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
-  .faculty3 a:hover {
+  .faculty2 a:hover {
     color: #ff7f0a;
   }
+
   /*faculty cards end */
 
 
@@ -2788,7 +2755,7 @@ div {
   .sc {
     font-family: "Jua";
     position: relative;
-    top: 260vh;
+    top: 280vh;
     font-size: 2.5vw;
     box-sizing: border-box;
     display: flex;
@@ -2800,7 +2767,7 @@ div {
   .boxes2 {
     font-family: "Jua";
     position: relative;
-    top: 260vh;
+    top: 280vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -2953,7 +2920,7 @@ div {
   .sh {
     font-family: "Jua";
     position: relative;
-    top: 250vh;
+    top: 277vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
