@@ -87,20 +87,19 @@ div {
     font-family: "Oswald-Bold", Helvetica;
     font-size: 12vw;
     font-weight: 400;
-    
     letter-spacing: 0.07;
     line-height:14vw ;
     width: -120vw;
     height: 43.52vh;
     top: 10vh;
-    left: 23vw;
+    left: 28vw;
     margin-right: 15vw; 
     white-space: nowrap;
 }
 
 /* archive end */
 /* archivecard start */
-.archivecard {
+.archivecard,.archivecard2 {
     display: block;
     justify-content: space-between;
     background-color: #ffffff;
@@ -108,16 +107,21 @@ div {
     border-radius: 3vh;
     position: absolute;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    top: 24vh;
-    height: 60vw;
+    height: 40vw;
     right: 20vw;
     width: 60vw;
     overflow: hidden;
 }
+.archivecard{
+    top: 25vh;
+}
+.archivecard2{
+    top: 55vh;
+}
 
 /* archive card end */
 /* 2022-23 start */
-.number {
+.number,.number2 {
     position: absolute;
     color: #000000;
     font-family: "Oswald", Helvetica;
@@ -125,33 +129,42 @@ div {
     font-weight: 600;
     font-size: 8vw;
     height: 43.52vh;
-    top: 17vh;
-    right: -7vw;
     margin-right: 15vw;
+    right: 18vw;
+}
+.number{
+    top: 18vh;
+}
+.number2{
+    top: 47vh;
 }
 
-
-
-.reports ul {
+.reports ul,.reports2 ul {
   font-family: "Jua";
   display: block;
   font-size: 4vw;
   justify-content: space-between;
   position: absolute;
-  width: 30vw;
-  top: 27vh;
-  left:19vw;
+  width: 40vw;
+  left:16vw;
 }
-.reports a{
+.reports ul{
+    top: 26vh;
+}
+.reports2 ul{
+    top: 56vh;
+}
+.reports a,.reports2 a{
     color: #000;
     text-decoration: none;
 }
-.reports a:hover{
+.reports a:hover,.reports2 a:hover{
     color:#ff7f0a
 }
 }
 
 @media screen and (max-width: 1921px) and (min-width: 501px) {
+
 /* Back Button  Start*/
 
 .fa-arrow-left-long {
