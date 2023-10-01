@@ -152,7 +152,6 @@ div {
 }
 
 @media screen and (max-width: 1921px) and (min-width: 501px) {
-
 /* Back Button  Start*/
 
 .fa-arrow-left-long {
@@ -253,7 +252,7 @@ div {
 
 /* archive end */
 /* archivecard start */
-.archivecard {
+.archivecard,.archivecard2 {
     display: block;
     justify-content: space-between;
     background-color: #ffffff;
@@ -261,16 +260,22 @@ div {
     border-radius: 5vh;
     position: absolute;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    top: 35vh;
     height: 26vw;
     left: 7vw;
     width: 40vw;
     overflow: hidden;
 }
+.archivecard{
+    top: 35vh;    
+}
+.archivecard2{
+    top: 110vh;   
+}
 
 /* archive card end */
+
 /* 2022-23 start */
-.number {
+.number,.number2 {
     position: absolute;
     color: #000000;
     font-family: "Oswald";
@@ -278,28 +283,41 @@ div {
     font-weight: 600;
     font-size: 5vw;
     height: 43.52vh;
-    top: 65vh;
     right: 4vw;
     margin-right: 15vw;
 }
+.number{
+    top: 65vh;
+}
+
+.number2 {
+    top: 127vh;
+}
 
 
-
-.reports ul {
+.reports ul,.reports2 ul {
   font-family: "Jua";
   display: block;
   font-size: 1.7vw;
   justify-content: space-between;
   position: absolute;
   width: 20vw;
-  top: 45vh;
-  left:7vw;
+  left:8vw;
 }
-.reports a{
+.reports ul{
+    top: 45vh;
+}
+.reports2 ul {
+    top: 120vh;
+}
+.reports a,.reports2 a{
     color: #000;
     text-decoration: none;
 }
-.reports a:hover{
+.reports a:hover,.reports2 a:hover{
     color:#ff7f0a
 }
+
+/* 2022-23 start */
+
 }
