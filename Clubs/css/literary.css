@@ -366,7 +366,6 @@ div {
     display: block;
     border: none;
     justify-content: space-between;
-    font-size: 1.9vw;
     padding: 20px;
     position: absolute;
     top: 93vh;
@@ -374,7 +373,7 @@ div {
     width: 73vw;
     left: 10vw;
     max-width: 100%;
-    font-size: 2vw;
+    font-size: 1.8vw;
     overflow: hidden;
     text-overflow: ellipsis;
   }
