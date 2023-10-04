@@ -136,13 +136,13 @@ div {
     top: 18vh;
 }
 .number2{
-    top: 47vh;
+    top: 48vh;
 }
 
 .reports ul,.reports2 ul {
   font-family: "Jua";
   display: block;
-  font-size: 4vw;
+  font-size: 3.5vw;
   justify-content: space-between;
   position: absolute;
   width: 40vw;
