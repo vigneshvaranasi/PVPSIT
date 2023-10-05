@@ -323,7 +323,7 @@ a.fa-house {
     text-align: center;
     position: absolute;
     top: 93vh;
-    height: 38vw;
+    height: 42vw;
     width: 70vw;
     left: 10vw;
     border: 0.2vw dashed #ff7f0a;
@@ -359,7 +359,7 @@ a.fa-house {
     padding: 20px;
     position: absolute;
     top: 93vh;
-    height: 38vw;
+    height: 40vw;
     width: 73vw;
     left: 10vw;
     max-width: 100%;
@@ -375,7 +375,7 @@ a.fa-house {
   .fc {
     font-family: "Jua";
     position: relative;
-    top: 114vh;
+    top: 114.5vh;
     font-size: 5vw;
     box-sizing: border-box;
     display: flex;
