@@ -23,110 +23,122 @@ div {
 
 
 
-.about,.archive,.Gallery{
-  display: none;
-}
+  .about,
+  .archive,
+  .Gallery {
+    display: none;
+  }
+
   /* Back Button  Start*/
-a.fa-solid.fa-arrow-left-long {
+  a.fa-solid.fa-arrow-left-long {
     display: none !important;
-}
-a.fa-house {
-  display: none;
-}
-/* Add styles for the menu icon */
-.menu-icon {
-  display: block;
-  position: absolute;
-  top: 9.5vh;
-  left: 20px;
-  z-index: 9999;
-  cursor: pointer;
-}
+  }
 
-.menu-icon i {
-  font-size: 7vw;
-}
+  a.fa-house {
+    display: none;
+  }
 
-/* Add styles for the side menu */
-.side-menu {
-  position: absolute;
-  top: -10px; /* Add a negative top value to create a gap */
-  left: -250px; /* Hide the menu by default */
-  width: 250px;
-  height: 105%;
-  background-color: #333;
-  z-index: 9998;
-  overflow-x: hidden;
-  transition: 0.3s;
-}
+  /* Add styles for the menu icon */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 9.5vh;
+    left: 20px;
+    z-index: 9999;
+    cursor: pointer;
+  }
 
-/* Add styles for the close button */
-.close-button {
-  position: absolute;
-  top: 10px; /* Adjust the top value to position the close button */
-  right: 10px; /* Adjust the right value to position the close button */
-  cursor: pointer;
-  z-index: 9999;
-}
+  .menu-icon i {
+    font-size: 7vw;
+  }
 
-.close-button i {
-  font-size: 24px;
-  color: #fff;
-}
+  /* Add styles for the side menu */
+  .side-menu {
+    position: absolute;
+    top: -10px;
+    /* Add a negative top value to create a gap */
+    left: -250px;
+    /* Hide the menu by default */
+    width: 250px;
+    height: 105%;
+    background-color: #333;
+    z-index: 9998;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
 
-.side-menu a {
-  display: block;
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
+  /* Add styles for the close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    /* Adjust the top value to position the close button */
+    right: 10px;
+    /* Adjust the right value to position the close button */
+    cursor: pointer;
+    z-index: 9999;
+  }
 
-.side-menu a:hover {
-  background-color: #444;
-}
+  .close-button i {
+    font-size: 24px;
+    color: #fff;
+  }
 
-/* Show the side menu when the menu icon is clicked */
-.menu-open {
-  left: 0;
-}
+  .side-menu a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
 
-/* Add styles for the menu icon */
-.menu {
-  color: #000000;
-  font-family: "Jua";
-  position: absolute;
-  left: 4vw;
-  top: 10vh;
-  font-size: 5vw;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .side-menu a:hover {
+    background-color: #444;
+  }
 
-.menu-icon {
-  width: 24px;
-  height: 4px;
-  z-index: 1; /* Ensure the menu icon is behind the menu content */
-}
+  /* Show the side menu when the menu icon is clicked */
+  .menu-open {
+    left: 0;
+  }
 
-/* Add styles for the menu content */
-.menu-content {
-  display: none;
-  position: absolute;
-  top: 33vh;
-  left: 8vw;
-  border: 0.2vw solid #000;
-  border-radius: 3vw;
-  background-color: #fff;
-  z-index: 2; /* Ensure the menu content is above the menu icon */
-}
+  /* Add styles for the menu icon */
+  .menu {
+    color: #000000;
+    font-family: "Jua";
+    position: absolute;
+    left: 4vw;
+    top: 10vh;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-/* Show the menu content when the show-menu class is added */
-.show-menu .menu-content {
-  display: block;
-}
+  .menu-icon {
+    width: 24px;
+    height: 4px;
+    z-index: 1;
+    /* Ensure the menu icon is behind the menu content */
+  }
+
+  /* Add styles for the menu content */
+  .menu-content {
+    display: none;
+    position: absolute;
+    top: 33vh;
+    left: 8vw;
+    border: 0.2vw solid #000;
+    border-radius: 3vw;
+    background-color: #fff;
+    z-index: 2;
+    /* Ensure the menu content is above the menu icon */
+  }
+
+  /* Show the menu content when the show-menu class is added */
+  .show-menu .menu-content {
+    display: block;
+  }
+
   /* Back Button End */
 
   /* Designed By Start */
@@ -228,7 +240,7 @@ a.fa-house {
     color: #000;
     text-decoration: none;
   }
-  
+
   .events a {
     color: #000;
     text-decoration: none;
@@ -237,6 +249,7 @@ a.fa-house {
   .events a:hover {
     color: #ff7f0a
   }
+
   .reports a {
     color: #000;
     text-decoration: none;
@@ -260,7 +273,7 @@ a.fa-house {
     left: 4.5vw;
     border: 0.2vw dashed #ff7f0a;
   }
-  
+
   .reports h1 {
     font-family: "Jua";
     display: flexbox;
@@ -363,7 +376,8 @@ a.fa-house {
     width: 73vw;
     left: 10vw;
     max-width: 100%;
-    font-size: 2vw;;
+    font-size: 2vw;
+    ;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -437,9 +451,11 @@ a.fa-house {
   .fac1 {
     top: 10%;
   }
+
   .fac2 {
     top: 42%;
   }
+
   .fac3 {
     top: 75%;
   }
@@ -477,7 +493,7 @@ a.fa-house {
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
+  .faculty2 a:hover,
   .faculty3 a:hover {
     color: #ff7f0a;
   }
@@ -561,7 +577,20 @@ a.fa-house {
   .simg4,
   .simg5,
   .simg6,
-  .simg7,
+  .simg7 {
+    background-color: #ffffff;
+    border: 0.15vw solid #000;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    height: 15vw;
+    width: 15vw;
+    top: 3vw;
+    left: 9.3vw;
+  }
+
   .simg8 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
@@ -589,7 +618,8 @@ a.fa-house {
     font-size: 3vw;
   }
 
-  .line1,.line2 {
+  .line1,
+  .line2 {
     position: relative;
     border: 0.1vw black solid;
     top: 5.5vh;
@@ -673,9 +703,11 @@ a.fa-house {
 @media screen and (max-width: 1079px) and (min-width: 501px) {
 
 
-  .side-menu,.menu-icon{
+  .side-menu,
+  .menu-icon {
     display: none;
   }
+
   /* Back Button  Start*/
 
   .fa-arrow-left-long {
@@ -1306,8 +1338,7 @@ a.fa-house {
   .simg4,
   .simg5,
   .simg6,
-  .simg7,
-  .simg8 {
+  .simg7 {
     background-color: #ffffff;
     border: 0.15vw solid #000;
     border-radius: 50%;
@@ -1319,6 +1350,20 @@ a.fa-house {
     width: 15vw;
     top: 2.8vw;
     left: 8vw;
+  }
+
+  .simg8 {
+    background-color: #ffffff;
+    border: 0.15vw solid #000;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    height: 15vw;
+    width: 15vw;
+    top: 2.8vw;
+    left: 7vw;
   }
 
   .stun1,
@@ -1440,9 +1485,11 @@ a.fa-house {
 
 
 
-  .side-menu,.menu-icon{
+  .side-menu,
+  .menu-icon {
     display: none;
   }
+
   /* Back Button  Start*/
 
   .fa-house {
@@ -1465,7 +1512,8 @@ a.fa-house {
   .fa-house:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
-/*   .fa-arrow-left-long {
+
+  /*   .fa-arrow-left-long {
     color: #ffffff;
     background-color: #000000;
     position: absolute;
@@ -1901,13 +1949,13 @@ a.fa-house {
     position: relative;
     top: 278vh;
     font-size: 3vw;
-    left:-17vw;
+    left: -17vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     font-family: "Jua";
     position: relative;
@@ -1940,7 +1988,7 @@ a.fa-house {
     height: 13vw;
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    right:2vw;
+    right: 2vw;
 
   }
 
@@ -1956,15 +2004,17 @@ a.fa-house {
     text-align: center;
     height: 12vw;
     width: 10vw;
-    right:5vw;
+    right: 5vw;
   }
 
   .fac1 {
     top: 8%;
   }
+
   .fac2 {
     top: 39%;
   }
+
   .fac3 {
     top: 70%;
   }
@@ -1979,13 +2029,14 @@ a.fa-house {
     font-size: 2vw;
   }
 
-  .fline1{
+  .fline1 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
     width: 13vw;
     top: 3vh;
   }
+
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
@@ -1993,7 +2044,7 @@ a.fa-house {
     width: 13vw;
     top: 6vh;
   }
-  
+
   .faculty1 a,
   .faculty2 a,
   .faculty3 a {
@@ -2009,10 +2060,11 @@ a.fa-house {
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
+  .faculty2 a:hover,
   .faculty3 a:hover {
     color: #ff7f0a;
   }
+
   /*faculty cards end */
 
   /* student cards Start*/
@@ -2214,7 +2266,8 @@ a.fa-house {
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
 
-  .side-menu,.menu-icon{
+  .side-menu,
+  .menu-icon {
     display: none;
   }
 
@@ -2240,6 +2293,7 @@ a.fa-house {
   .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
+
   .fa-house {
     color: #ffffff;
     background-color: #000000;
@@ -2669,13 +2723,13 @@ a.fa-house {
     position: relative;
     top: 278vh;
     font-size: 3vw;
-    left:-17vw;
+    left: -17vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     font-family: "Jua";
     position: relative;
@@ -2708,7 +2762,7 @@ a.fa-house {
     height: 13vw;
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    right:2vw;
+    right: 2vw;
 
   }
 
@@ -2724,15 +2778,17 @@ a.fa-house {
     text-align: center;
     height: 12vw;
     width: 10vw;
-    right:5vw;
+    right: 5vw;
   }
 
   .fac1 {
     top: 8%;
   }
+
   .fac2 {
     top: 39%;
   }
+
   .fac3 {
     top: 70%;
   }
@@ -2747,13 +2803,14 @@ a.fa-house {
     font-size: 2vw;
   }
 
-  .fline1{
+  .fline1 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
     width: 13vw;
     top: 3vh;
   }
+
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
@@ -2761,7 +2818,7 @@ a.fa-house {
     width: 13vw;
     top: 6vh;
   }
-  
+
   .faculty1 a,
   .faculty2 a,
   .faculty3 a {
@@ -2777,10 +2834,11 @@ a.fa-house {
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
+  .faculty2 a:hover,
   .faculty3 a:hover {
     color: #ff7f0a;
   }
+
   /*faculty cards end */
 
 
@@ -2987,7 +3045,8 @@ a.fa-house {
 
 @media screen and (max-width: 1921px) and (min-width: 1442px) {
 
-  .side-menu,.menu-icon{
+  .side-menu,
+  .menu-icon {
     display: none;
   }
 
@@ -3013,6 +3072,7 @@ a.fa-house {
   .fa-arrow-left-long:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
+
   .fa-house {
     color: #ffffff;
     background-color: #000000;
@@ -3443,13 +3503,13 @@ a.fa-house {
     position: relative;
     top: 278vh;
     font-size: 2.5vw;
-    left:-17vw;
+    left: -17vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     font-family: "Jua";
     position: relative;
@@ -3482,7 +3542,7 @@ a.fa-house {
     height: 13vw;
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    right:2vw;
+    right: 2vw;
 
   }
 
@@ -3498,15 +3558,17 @@ a.fa-house {
     text-align: center;
     height: 12vw;
     width: 10vw;
-    right:5vw;
+    right: 5vw;
   }
 
   .fac1 {
     top: 8%;
   }
+
   .fac2 {
     top: 39%;
   }
+
   .fac3 {
     top: 70%;
   }
@@ -3521,13 +3583,14 @@ a.fa-house {
     font-size: 2vw;
   }
 
-  .fline1{
+  .fline1 {
     position: relative;
     border: 0.1vw black solid;
     left: 3vw;
     width: 13vw;
     top: 3vh;
   }
+
   .fline2 {
     position: relative;
     border: 0.1vw black solid;
@@ -3535,7 +3598,7 @@ a.fa-house {
     width: 13vw;
     top: 6vh;
   }
-  
+
   .faculty1 a,
   .faculty2 a,
   .faculty3 a {
@@ -3551,10 +3614,11 @@ a.fa-house {
   }
 
   .faculty1 a:hover,
-  .faculty2 a:hover, 
+  .faculty2 a:hover,
   .faculty3 a:hover {
     color: #ff7f0a;
   }
+
   /*faculty cards end */
 
 
@@ -3651,8 +3715,7 @@ a.fa-house {
     left: 56.1vw;
   }
 
-  .simg4,
-  .simg8 {
+  .simg4 {
     left: 79.7vw;
   }
 
@@ -3662,10 +3725,16 @@ a.fa-house {
   .stun4,
   .stun5,
   .stun6,
-  .stun7,
+  .stun7 {
+    position: relative;
+    top: 21vh;
+    font-size: 1.6vw;
+  }
+
   .stun8 {
     position: relative;
     top: 21vh;
+    left: 60vw;
     font-size: 1.6vw;
   }
 
@@ -3760,6 +3829,6 @@ a.fa-house {
 
 
 .boxes1 span,
-.boxes2 span{
-  color:#ff7f0a;
+.boxes2 span {
+  color: #ff7f0a;
 }
