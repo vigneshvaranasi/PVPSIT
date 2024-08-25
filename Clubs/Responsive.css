@@ -77,13 +77,13 @@ div {
     height: 300px;
     border: 2px solid #000;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-    border-radius: 50px;
+    border-radius: 25px;
     overflow: hidden;
     margin-left: -5vw;
 }
 
 .carousel img {
-    border-radius: 50px;
+    border-radius: 25px;
     max-height: 100%;
     object-fit: cover;
     z-index: -1;
@@ -133,7 +133,7 @@ div {
     border: 0.2vw dashed #ff7f0a;
     margin: 20px;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Documents Image start */
@@ -152,7 +152,7 @@ div {
 
 .events a,
 .reports a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Jua";
     color: black;
     text-decoration: none;
@@ -206,7 +206,7 @@ div {
     margin-top: -19px;
 }
 
-.schead{
+.schead {
     margin-top: 20px;
     margin-bottom: 60px;
     font-size: 2rem;
@@ -214,7 +214,8 @@ div {
     color: #000000;
     font-family: "Jua";
 }
-.scontainer{
+
+.scontainer {
     margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -224,7 +225,8 @@ div {
     gap: 80px;
     font-family: "Jua";
 }
-.scard{
+
+.scard {
     width: 230px;
     height: 310px;
     background-color: #f5f5f5;
@@ -238,45 +240,99 @@ div {
     box-shadow: 7px 7px 12px #ff7f0a;
     margin-top: -40px;
 }
-.scard .name{
+
+.scard .name {
     margin-top: 5px;
     font-size: 1.45rem;
     color: #000;
 }
-.scard .des{
+
+.scard .des {
     font-size: 1.4rem;
     color: #ff7f0a;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.scard .simg{
+
+.scard .simg {
     width: 130px;
-    height:130px;
+    height: 130px;
     border-radius: 50%;
     margin-top: 10px;
     border: 1.5px solid #000;
-}  
+}
+
 .line {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px black solid;
     width: 180px;
 }
-.scard .icons{
+
+.scard .icons {
     display: flex;
     color: #000;
     gap: 20px;
 }
-.scard .icons a{
+
+.scard .icons a {
     font-family: "Jua";
     align-items: center;
     color: #000;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.scard .icons a:hover{
+
+.scard .icons a:hover {
     color: #ff7f0a;
 }
+
+/* About Start */
+.dot-abouts {
+    justify-content: space-between;
+    border-radius: 25px;
+    border: 0.2vw dashed #ff7f0a;
+    margin: 20px;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.abouts {
+    font-family: "Jua";
+    color: black;
+    padding: 10px;
+    text-align: justify;
+}
+
+.abouts h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.aboutsline {
+    display: none;
+}
+
+.textbox {
+    font-size: 1rem;
+    padding: 10px;
+}
+.textbox ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+.fullabt{
+    display: flex;
+    gap: 0;
+}
+.abtimg{
+    width: 60%;
+    height: 100%;
+    padding-top: 50px;
+
+}
+
+/* About end */
 
 
 @media screen and (max-width: 861px) {
@@ -294,6 +350,11 @@ div {
         width: 400px;
         height: 250px;
         margin-left: -10px;
+        border-radius: 12px;
+    }
+
+    .carousel img {
+        border-radius: 12px;
     }
 
 }
@@ -303,6 +364,11 @@ div {
         width: 450px;
         height: 200px;
         margin-left: 0px;
+        border-radius: 12px;
+    }
+
+    .carousel img {
+        border-radius: 12px;
     }
 
     .rocket {
@@ -318,6 +384,11 @@ div {
     .carousel {
         width: 100%;
         height: 200px;
+        border-radius: 15px;
+    }
+
+    .carousel img {
+        border-radius: 15px;
     }
 
     .rocket {
@@ -344,11 +415,29 @@ div {
     }
 
     .cycle {
-        /* display: none; */
-        margin-top: -30px;
+        display: none;
+        /* margin-top: -30px; */
     }
 
     .quotation {
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        display: none;
+    }
+
+    .road {
+        display: none;
+    }
+
+    .dotted-events {
+        border-radius: 20px;
+    }
+    .dot-abouts{
+        width: 90%;
+    }
+    .textbox{
+        font-size: 0.9rem;
+    }
+    .abtimg{
+        display: none;
     }
 }
