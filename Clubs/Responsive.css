@@ -317,19 +317,27 @@ div {
     font-size: 1rem;
     padding: 10px;
 }
+.textbox p{
+    margin-top: 10px;
+}
 .textbox ul li {
     list-style: disc;
     margin-left: 20px;
 }
 .fullabt{
     display: flex;
-    gap: 0;
+    gap: 30px;
+    justify-content:center;
+    margin-left: 60px;
 }
 .abtimg{
-    width: 60%;
-    height: 100%;
     padding-top: 50px;
-
+    width: 50%;
+}
+.abtimg img{
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
 }
 
 /* About end */
@@ -356,6 +364,15 @@ div {
     .carousel img {
         border-radius: 12px;
     }
+    .dot-abouts{
+        width: 100%;
+    }
+    .abtimg{
+        display: none;
+    }
+    .fullabt{
+        margin-left: 0;
+    }
 
 }
 
@@ -378,6 +395,7 @@ div {
     .herosec {
         margin-top: 0px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
