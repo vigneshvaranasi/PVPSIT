@@ -1,0 +1,313 @@
+
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+
+    .explore,
+    .rabbit,
+    .fun {
+      display: none;
+    }
+  
+    .text-card img {
+      display: none;
+    }
+  
+    .text-card .line {
+      display: none;
+    }
+  
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+  
+    
+      .label .text-wrapper {
+        color: #000000;
+        font-family: "Jua";
+        font-size: 12vw;
+        text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+        margin-right: 10vw;
+      
+      }
+    
+  .fa-arrow-left-long {
+    color: #000000;
+    /* background-color: #000000;   */
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 2.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    margin-left: 1vw;
+  }
+
+  .fa-arrow-left-long:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+
+
+  /* Back Button End */
+
+  /* Designed By Start */
+
+  .designedby
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+  }
+
+  .design {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+ 
+    border: none;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 15vw;
+    height: 3.6vw;
+    text-align: center;
+    margin-right: 1vw;
+}
+  
+    .design:hover {
+      box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+  
+    .container {
+      font-family: "Jua";
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 2px 2px;
+      height: auto;
+    }
+  
+    .text-card {
+      color: #000000;
+      padding: 10px;
+      font-size: 3vw;
+      border: 0.2vw solid #000;
+      border-radius: 3vh;
+      text-align: center;
+      width: 35vw;
+      height: 3vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .text-card a {
+      color: #000000;
+      text-decoration: none;
+    }
+  
+    .text-card:hover {
+      box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+      transform: scale(1.05);
+    }
+  
+  }
+  
+
+@media screen and (max-width: 1921px) and (min-width: 600px) 
+{
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+  }
+.fun
+{
+    max-width:560px;
+    margin-right: 6vw;
+}
+
+  .label .text-wrapper {
+    color: #000000;
+    font-family: "Jua";
+    font-size: 12vw;
+    text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    margin-right: 10vw;
+  
+  }
+
+  /* Content End */
+
+  /* Back Button  Start*/
+
+  .fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;  
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    margin-left: 1vw;
+  }
+
+  .fa-arrow-left-long:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+
+
+  /* Back Button End */
+
+  /* Designed By Start */
+
+  .designedby
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+  }
+
+  .design {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 12vw;
+    height: 2.6vw;
+    text-align: center;
+    margin-right: 1vw;
+}
+
+  .design:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+
+  /* Designed By End */
+
+  /* Rabbit picture Start */
+
+  .rabbit {
+    background-color: #ffffff;
+    padding-top: 320px;
+  }
+
+  /* Rabbit picture End */
+
+
+  /* Cards Start*/
+  .container {
+    font-family: "Jua";
+    position: relative;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .text-card {
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 0.2vw solid #000;
+    border-radius: 5vh;
+    text-align: center;
+    height: 30vw;
+    width: 25vw;
+  }
+
+
+  .text-card:hover {
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+  }
+
+  .text-card img {
+    height: 25vw;
+    width: 25vw;
+  }
+
+  .text-card .line {
+    border: 0.1vw black solid;
+  }
+
+  .text-card a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Card Hover Zoom Start */
+  .text-card {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .text-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Card Hover Zoom End */
+
+  /* Cards End*/
+
+  /* Explore Button Start */
+  .explore {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5vw;
+    margin-left: 10vw;
+  }
+
+  .explore:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+
+  /* Explore Button End */
+
+}

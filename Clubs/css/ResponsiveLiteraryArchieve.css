@@ -1,0 +1,297 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    position: relative;
+}
+
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+
+  /* Back Button  Start*/
+
+  .fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+  .fa-house {
+    color: #ffffff;
+    background-color: #000000;
+   
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2.3vw;
+    height: 1vw;
+    margin-left: 1vw;
+}
+
+.fa-house:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Back Button End */
+
+/* Designed By Start */
+.design {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+ 
+    border: none;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 15vw;
+    height: 3.6vw;
+    text-align: center;
+    margin-right: 1vw;
+}
+
+.design:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Designed By End */
+
+/*ARCHIVE START*/
+.Archive {
+    color: #000000;
+    font-family: "Jua";
+    font-size: 10vw;
+    text-shadow: 0.13020833333333334vw 0.13020833333333334vw 0.2604166666666667vw #ff7f0a;
+    padding-left: 11vw;
+}
+
+/* archive end */
+
+/* 2022-23 start */
+.number {
+    color: #000000;
+    font-family: "Oswald";
+    font-size: 7vw;
+    font-weight: 600;
+    font-size: 11vw;
+}
+
+
+.number span {
+    -webkit-text-stroke: 0.2vw #fb6816;
+    color: transparent;
+    font-family: "Oswald-Bold", Helvetica;
+    font-size: 11vw;
+    white-space: nowrap;
+}
+
+.reports ul {
+    font-family: "Jua";
+}
+
+.reports a {
+    color: #000;
+    text-decoration: none;
+}
+
+.reports a:hover {
+    color: #ff7f0a
+}
+
+
+    .main
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+    }
+    .submain
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vw;
+    }
+
+    .reports
+    {
+        border-radius: 2vw;
+        border: 0.2vw solid #000;
+        box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+        padding-right: 10vw;
+
+    }
+    .home
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+      
+@media screen and (max-width: 1921px) and (min-width: 501px) {
+
+    /* Back Button  Start*/
+
+    .fa-arrow-left-long {
+        color: #ffffff;
+        background-color: #000000;
+        padding: 1.11vh 1.39vw;
+        border: none;
+        border-radius: 1vw;
+        font-size: 1.8vw;
+        cursor: pointer;
+        text-decoration: none;
+        width: 2vw;
+        height: 1.6vw;
+        text-align: center;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+
+    .fa-arrow-left-long:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+    .fa-house {
+        color: #ffffff;
+        background-color: #000000;
+       
+        padding: 1.11vh 1.39vw;
+        border: none;
+        border-radius: 1vw;
+        font-size: 1.8vw;
+        cursor: pointer;
+        text-decoration: none;
+        width: 2vw;
+        height: 1.6vw;
+        margin-left: 1vw;
+    }
+
+    .fa-house:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+
+    /* Back Button End */
+
+    /* Designed By Start */
+    .design {
+        color: #ffffff;
+        background-color: #000000;
+        font-family: "Jua";
+        right: 0.5vw;
+        top: 26.5vh;
+        border: none;
+        border-radius: 1vw;
+        font-size: 1.9vw;
+        cursor: pointer;
+        text-decoration: none;
+        width: 12vw;
+        height: 2.6vw;
+        text-align: center;
+        margin-right: 1vw;
+    }
+
+    .design:hover {
+        box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+    }
+
+    /* Designed By End */
+
+    /*ARCHIVE START*/
+    .Archive {
+        color: #000000;
+        font-family: "Jua";
+        font-size: 7vw;
+        text-shadow: 0.13020833333333334vw 0.13020833333333334vw 0.2604166666666667vw #ff7f0a;
+    }
+
+    /* archive end */
+  
+    /* 2022-23 start */
+     .number {
+        color: #000000;
+        font-family: "Oswald";
+        font-size: 7vw;
+        font-weight: 600;
+        font-size: 11vw;
+    }
+
+
+    .number span {
+        -webkit-text-stroke: 0.2vw #fb6816;
+        color: transparent;
+        font-family: "Oswald-Bold", Helvetica;
+        font-size: 11vw;
+        letter-spacing: 0.065vw;
+        line-height: 19.8vw;
+        white-space: nowrap;
+    }
+
+    .reports ul {
+        font-family: "Jua";
+        font-size: 1.7vw;
+        width: 30vw;
+    }
+
+    .reports a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .reports a:hover {
+        color: #ff7f0a
+    }
+
+
+    .main
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+    }
+    .submain
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1vw;
+    }
+
+    .reports
+    {
+        border-radius: 1vw;
+        border: 0.2vw solid #000;
+        box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+
+    }
+    .home
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}     
