@@ -269,13 +269,13 @@ div {
     width: 180px;
 }
 
-.scard .icons {
+.icons {
     display: flex;
     color: #000;
     gap: 20px;
 }
 
-.scard .icons a {
+.icons a {
     font-family: "Jua";
     align-items: center;
     color: #000;
@@ -283,7 +283,7 @@ div {
     font-size: 1.2rem;
 }
 
-.scard .icons a:hover {
+.icons a:hover {
     color: #ff7f0a;
 }
 
@@ -317,24 +317,102 @@ div {
     font-size: 1rem;
     padding: 10px;
 }
+
+.textbox p {
+    margin-top: 10px;
+}
+
 .textbox ul li {
     list-style: disc;
     margin-left: 20px;
 }
-.fullabt{
-    display: flex;
-    gap: 0;
-}
-.abtimg{
-    width: 60%;
-    height: 100%;
-    padding-top: 50px;
 
+.fullabt {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.abtimg {
+    padding-top: 50px;
+    width: 50%;
+}
+
+.abtimg img {
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
 }
 
 /* About end */
 
+/* Faculty Coordinators  start*/
+.fc {
+    font-family: "Jua";
+    text-align: center;
+    font-size: 2rem;
+}
+.fcname{
+    font-size: 1.3rem;
+}
 
+.cordinator-card {
+    font-family: "Jua";
+    display: flex;
+    margin: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.faculty {
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 0.15vw solid #000;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    width: 350px;
+}
+.faculty img{
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    border: 0.1px solid #000;
+}
+.fcData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.fline{
+    border: 0.1px solid #000;
+    width: 100%;
+    margin: 5px 0px;
+}
+.handshaking{
+    width: 300px;
+}
+.handshaking img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Faculty Coordinators  end*/
+
+
+@media screen and (max-width: 1140px) {
+    .handshaking{
+        display: none;
+    }
+}
 @media screen and (max-width: 861px) {
     .documents {
         display: none;
@@ -357,6 +435,17 @@ div {
         border-radius: 12px;
     }
 
+    .dot-abouts {
+        width: 100%;
+    }
+
+    .abtimg {
+        display: none;
+    }
+
+    .fullabt {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -378,6 +467,7 @@ div {
     .herosec {
         margin-top: 0px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -431,13 +521,16 @@ div {
     .dotted-events {
         border-radius: 20px;
     }
-    .dot-abouts{
+
+    .dot-abouts {
         width: 90%;
     }
-    .textbox{
+
+    .textbox {
         font-size: 0.9rem;
     }
-    .abtimg{
+
+    .abtimg {
         display: none;
     }
 }
