@@ -46,7 +46,7 @@ div {
     background-color: #000000;
     font-family: "Jua";
     border: none;
-    border-radius: 1vw;
+    border-radius: 10px;
     font-size: 1.9vw;
     cursor: pointer;
     text-decoration: none;
@@ -59,7 +59,7 @@ div {
 }
 
 .design {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .label {
@@ -497,6 +497,7 @@ div {
         width: 80px;
         font-size: 0.9rem;
         padding: 3px;
+        border-radius: 5px;
     }
 
     .design,

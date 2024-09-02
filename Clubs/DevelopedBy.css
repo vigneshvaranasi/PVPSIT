@@ -1,0 +1,135 @@
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle {
+    background-color: #fb6816de;
+    min-height: 100vh;
+    margin: 20px;
+}
+
+.text-wrapper {
+    color: #fff5e0;
+    font-family: "Oswald-Regular", Helvetica;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+    text-align: center;
+}
+
+/* .box{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Card Start */
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* contact card box for eswar */
+/* outer box start */
+.outerbox {
+    display: flex;
+    /* height: 100%; */
+    width: 230px;
+    background-color: #ffd9b7;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.outerbox a {
+    color: black;
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration-color: black;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.outerbox a:hover {
+    color: #fb6816de;
+}
+
+/* inner box start */
+/* inner box design start */
+.innerbox {
+    background-color: #fff5e0;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(7px 8px 4px rgba(0, 0, 0, 0.25));
+}
+
+.innerbox .image {
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.sign {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2rem;
+    font-weight: 60;
+    text-decoration: underline;
+    transform: rotate(-12deg);
+    text-align: center;
+    margin-top: -25px;
+    margin-left: -15px;
+    padding-bottom: 10px;
+}
+
+.roll {
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 60;
+    text-decoration: none;
+    color: black;
+}
+
+.other-details {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.other-details a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    filter: none;
+}
+
+.other-details a:hover {
+    color: #ffd9b7;
+}
+
+@media screen and (max-width: 650px) {
+    .text-wrapper {
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    .cards-container{
+        justify-content: center;
+    }
+
+}
