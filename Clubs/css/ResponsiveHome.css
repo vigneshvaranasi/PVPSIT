@@ -153,11 +153,12 @@ div {
     justify-content: space-around;
     padding: 0px;
   }
-.fun
-{
-    max-width:560px;
+  .fun {
+    max-width: 100%;
+    height: auto;
     margin-right: 6vw;
 }
+
 
   .label .text-wrapper {
     color: #000000;
